@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -44,6 +49,57 @@ body {
     max-width: 90%;
     height: auto;
     object-fit: contain;
+}
+
+/* Textos lado esquerdo */
+
+.textos-chamativos {
+    text-align: left;
+    padding: 0 30px;
+    margin-top: 20px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif; /* Aplicando a fonte solicitada */
+}
+
+.titulo-destaque {
+    font-size: 22px;
+    font-weight: 700; /* Peso da fonte em negrito para destacar */
+    margin-bottom: 15px;
+    line-height: 1.4; /* Espaçamento entre as linhas para melhor leitura */
+}
+
+.mini-texto {
+    font-size: 15px;
+    font-weight: 400;
+    color: #e0e0e0; /* Um tom levemente mais escuro que o branco puro para dar contraste hierárquico */
+    line-height: 1.5;
+}
+
+/* --- BOTÕES DE NAVEGAÇÃO (Lado Esquerdo) --- */
+.navegacao-servicos {
+    display: flex;
+    flex-direction: row; /* Coloca os botões um ao lado do outro */
+    align-items: center; /* Centraliza os botões na tela esquerda */
+    gap: 20px; /* Espaçamento entre um botão e outro */
+    margin-top: 40px; /* Distância entre os botões e o texto de cima */
+    padding: 0 30px;
+}
+
+.div-botao {
+    width: 150px; /* Largura padrão dos botões (ajuste conforme o tamanho da sua imagem) */
+    max-width: 85%; /* Impede que o botão fique maior que a tela em monitores pequenos */
+    transition: transform 0.3s ease; /* Prepara a animação suave */
+}
+
+/* Efeito de aumento ao passar o mouse */
+.div-botao:hover {
+    transform: scale(1.05); /* Aumenta o botão em 5% */
+}
+
+.img-botao {
+    width: 100%; /* A imagem vai preencher os 250px da div-botao */
+    height: auto; /* Mantém a proporção original do seu desenho */
+    display: block; /* Remove um pequeno espaço branco que navegadores colocam sob imagens */
 }
 
 .secao {
