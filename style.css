@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #6a0909;
+    height: 100vh;
+}
+
+.logo {
+    color: black;
+    font-family: mont;
+    font-size: 14px;
+    width: 100px;
+    height: 20px;
+    background-color: transparent;
+}
+
+.content-container-direita {
+    background-color: white;
+    width: 55%;
+    height: 100%;
+    float: right;
+}
+
+.content-container-esquerda {
+    background-color: #6a0909;
+    width: 45%;
+    height: 100%;
+    float: left;
+}
+
+.imagem-principal {
+    background-color: gray;
+    width: 90%;
+    height: 60%;
+    margin: 40px auto 0 auto;
+    display: block;
+    border-radius: 5%;
+    object-fit: cover;
+}
