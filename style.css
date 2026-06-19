@@ -5,21 +5,13 @@ body {
     height: 100vh;
 }
 
-.logo {
-    color: black;
-    font-family: mont;
-    font-size: 14px;
-    width: 100px;
-    height: 20px;
-    background-color: transparent;
-}
-
 /* Divs do Background */
 .content-container-direita {
     background-color: white;
     width: 55%;
     height: 100%;
     float: right;
+    overflow-y: auto;
 }
 
 .content-container-esquerda {
@@ -29,18 +21,78 @@ body {
     float: left;
 }
 
-.imagem-principal {
-    background-color: gray;
-    width: 90%;
-    height: 60%;
-    margin: 40px auto 0 auto;
-    display: block;
-    border-radius: 5%;
-    object-fit: cover;
+/* logo */
+
+.logo {
+    color: black;
+    font-family: mont;
+    font-size: 14px;
+    width: 100px;
+    height: 20px;
+    background-color: transparent;
+}
+
+.cabecalho-logo {
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+    padding: 0 30px;
+}
+
+.imagem-logo {
+    width: 280px;
+    max-width: 90%;
+    height: auto;
+    object-fit: contain;
+}
+
+.secao {
+    min-height: 100vh; /* Faz cada bloco ocupar a altura inteira da tela */
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza o texto no meio da tela temporariamente */
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+/* Cores de marcação temporárias */
+
+.inicio {
+    background-color: white;
+    color: black;
+}
+.azul {
+    background-color: blue;
+    color: white;
+}
+.verde {
+    background-color: green;
+    color: white;
+}
+.roxa {
+    background-color: purple;
+    color: white;
+}
+
+/*linha separadora*/
+
+.separador-secao {
+    border: 0;
+    height: 2px;
+    /* Cria um degradê que começa transparente, fica cinza no meio e termina transparente */
+    background-image: linear-gradient(
+        to right,
+        transparent,
+        #cccccc,
+        transparent
+    );
+    margin: 0;
 }
 
 /* Estilização do Footer */
-/* ESTILIZAÇÃO DO FOOTER MINIMALISTA */
+
 .rodape-minimalista {
     background-color: #420505; /* Vermelho mais escuro que a div da esquerda */
     color: #cccccc;
@@ -69,6 +121,7 @@ body {
 }
 
 /* Um pequeno separador visual entre o copyright e os links */
+
 .separador {
     color: #777777;
     user-select: none;
