@@ -243,8 +243,107 @@
 
             <hr class="separador-secao" />
 
-            <div class="secao roxa" id="eventos">
-                <h2>Eventos</h2>
+            <!-- SEÇÃO EVENTOS E FESTAS -->
+            <div class="secao eventos-area" id="eventos">
+                <h2 class="titulo-secao text-center">Festas e Eventos</h2>
+                <p class="descricao-eventos">
+                    Realize seu momento especial com a gente. Conheça nosso
+                    espaço e escolha o plano perfeito para o seu evento.
+                </p>
+
+                <!-- CARROSSEL DE IMAGENS -->
+                <div class="carrossel-container">
+                    <button class="btn-carrossel prev" onclick="mudarSlide(-1)">
+                        &#10094;
+                    </button>
+                    <div class="carrossel-track-wrapper">
+                        <div class="carrossel-track" id="track-eventos">
+                            <img
+                                src="imagens/ia_5.png"
+                                alt="Decoração de evento"
+                                class="slide-evento"
+                            />
+                            <img
+                                src="imagens/ia_6.png"
+                                alt="Espaço do restaurante"
+                                class="slide-evento"
+                            />
+                            <img
+                                src="imagens/ia_7.png"
+                                alt="Festa realizada"
+                                class="slide-evento"
+                            />
+                            <img
+                                src="imagens/ia_8.png"
+                                alt="Festa realizada"
+                                class="slide-evento"
+                            />
+                            <img
+                                src="imagens/ia_9.png"
+                                alt="Festa realizada"
+                                class="slide-evento"
+                            />
+                        </div>
+                    </div>
+                    <button class="btn-carrossel next" onclick="mudarSlide(1)">
+                        &#10095;
+                    </button>
+                </div>
+
+                <!-- PLANOS ESTILO SaaS -->
+                <div class="container-planos">
+                    <!-- Plano 1: Aluguel -->
+                    <div class="cartao-plano">
+                        <h3>Aluguel do Espaço</h3>
+                        <ul class="lista-beneficios">
+                            <li>✔️ Uso exclusivo do salão</li>
+                            <li>✔️ Mesas e cadeiras inclusas</li>
+                            <li>✔️ Acesso liberado aos banheiros</li>
+                            <li>✔️ Limpeza pós-evento</li>
+                        </ul>
+                        <a
+                            href="https://wa.me/55SEUNUMERO?text=Olá, gostaria de um orçamento para Aluguel do Espaço"
+                            target="_blank"
+                            class="btn-orcamento"
+                            >Faça seu orçamento</a
+                        >
+                    </div>
+
+                    <!-- Plano 2: Buffet (Destacado) -->
+                    <div class="cartao-plano destaque">
+                        <div class="badge-recomendado">Mais Escolhido</div>
+                        <h3>Serviço de Buffet</h3>
+                        <ul class="lista-beneficios">
+                            <li>✔️ Aluguel do espaço incluso</li>
+                            <li>✔️ Cardápio personalizado</li>
+                            <li>✔️ Equipe completa de garçons</li>
+                            <li>✔️ Bebidas e sobremesas</li>
+                        </ul>
+                        <a
+                            href="https://wa.me/55SEUNUMERO?text=Olá, gostaria de um orçamento para o Serviço de Buffet"
+                            target="_blank"
+                            class="btn-orcamento"
+                            >Faça seu orçamento</a
+                        >
+                    </div>
+
+                    <!-- Plano 3: Entrega -->
+                    <div class="cartao-plano">
+                        <h3>Entrega em Domicílio</h3>
+                        <ul class="lista-beneficios">
+                            <li>✔️ Comida em grandes porções</li>
+                            <li>✔️ Embalagens térmicas adequadas</li>
+                            <li>✔️ Agendamento exato de horário</li>
+                            <li>✔️ Praticidade para a sua festa</li>
+                        </ul>
+                        <a
+                            href="https://wa.me/55SEUNUMERO?text=Olá, gostaria de um orçamento para Entrega em Domicílio (Eventos)"
+                            target="_blank"
+                            class="btn-orcamento"
+                            >Faça seu orçamento</a
+                        >
+                    </div>
+                </div>
             </div>
         </div>
 

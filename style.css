@@ -39,7 +39,7 @@ body {
 
 .cabecalho-logo {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     margin-top: 10px;
     padding: 0 30px;
 }
@@ -438,6 +438,170 @@ body {
     100% {
         transform: scale(1);
     }
+}
+
+/* --- SEÇÃO EVENTOS E FESTAS --- */
+.eventos-area {
+    background-color: #f9f9f9; /* Um cinza muito claro para diferenciar das outras abas */
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.descricao-eventos {
+    text-align: center;
+    color: #555;
+    max-width: 600px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Carrossel de Imagens */
+.carrossel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 60px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.carrossel-track-wrapper {
+    overflow: hidden; /* Esconde as imagens que estão fora da tela */
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+}
+
+.carrossel-track {
+    display: flex;
+    transition: transform 0.4s ease-in-out; /* Animação de deslizar suave */
+}
+
+.slide-evento {
+    width: 100%;
+    flex-shrink: 0;
+    height: 350px;
+    object-fit: cover;
+}
+
+.btn-carrossel {
+    background-color: #6a0909;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-carrossel:hover {
+    background-color: #420505;
+}
+
+/* Planos Estilo SaaS */
+.container-planos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.cartao-plano {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 30px 25px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    position: relative;
+    transition:
+        transform 0.3s,
+        box-shadow 0.3s;
+}
+
+.cartao-plano:hover {
+    transform: translateY(-5px); /* Efeito de flutuar ao passar o mouse */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Destacando o plano do meio (Buffet) */
+.cartao-plano.destaque {
+    border: 2px solid #6a0909;
+    transform: scale(1.05); /* Deixa ele um pouco maior */
+}
+
+.cartao-plano.destaque:hover {
+    transform: scale(1.05) translateY(-5px);
+}
+
+.badge-recomendado {
+    position: absolute;
+    top: -12px;
+    background-color: #6a0909;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.cartao-plano h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.lista-beneficios {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px 0;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.lista-beneficios li {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 12px;
+    line-height: 1.4;
+    border-bottom: 1px solid #f1f1f1;
+    padding-bottom: 8px;
+}
+
+.btn-orcamento {
+    background-color: #25d366; /* Cor verde padrão do WhatsApp */
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    transition: background 0.3s;
+}
+
+.btn-orcamento:hover {
+    background-color: #1ebd5a;
 }
 
 /* Estilização do Footer */
