@@ -13,7 +13,7 @@ body {
 /* Divs do Background */
 .content-container-direita {
     background-color: white;
-    width: 55%;
+    width: 60%;
     height: 100%;
     float: right;
     overflow-y: auto;
@@ -21,7 +21,7 @@ body {
 
 .content-container-esquerda {
     background-color: #6a0909;
-    width: 45%;
+    width: 40%;
     height: 100%;
     float: left;
 }
@@ -145,6 +145,43 @@ body {
         transparent
     );
     margin: 0;
+}
+
+/* --- SEÇÃO INICIAL (Imagem destaque) --- */
+.inicio {
+    background-color: #ffffff;
+    padding: 60px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.destaque-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.imagem-destaque {
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+    object-fit: cover;
+}
+
+.texto-marketing {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #420505;
+    text-align: center;
+    max-width: 600px;
+    line-height: 1.5;
 }
 
 /* Estilização do Footer */
