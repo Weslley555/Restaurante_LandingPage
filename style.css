@@ -351,6 +351,95 @@ body {
     color: #666; /* Cor mais suave, menos chamativa que o vermelho */
 }
 
+/* --- SEÇÃO DELIVERY --- */
+.delivery-area {
+    background-color: #ffffff; /* Fundo limpo para destacar a foto */
+    padding: 80px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delivery-conteudo {
+    display: flex;
+    flex-direction: column; /* Coloca os textos e depois a foto embaixo */
+    align-items: center;
+    gap: 40px;
+    max-width: 800px;
+}
+
+.delivery-texto {
+    text-align: center;
+}
+
+.descricao-delivery {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+/* Selos de Confiança */
+.vantagens-delivery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+    flex-wrap: wrap; /* Permite quebrar linha se a tela for pequena */
+}
+
+.vantagem {
+    background-color: #fff3f3; /* Fundo vermelho bem clarinho */
+    color: #6a0909;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Imagem do Delivery */
+.img-destaque-delivery {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+/* --- BOTÃO DO WHATSAPP COM ANIMAÇÃO --- */
+.link-whatsapp {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    animation: pulsar 2s infinite; /* A mágica que faz o botão pulsar */
+}
+
+.link-whatsapp:hover {
+    transform: scale(1.05);
+    animation: none; /* Para de pulsar quando o cliente passa o mouse */
+}
+
+.btn-peca-aqui {
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Keyframes da animação de pulsar */
+@keyframes pulsar {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.04);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 /* Estilização do Footer */
 
 .rodape-minimalista {
