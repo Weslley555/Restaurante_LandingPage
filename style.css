@@ -150,9 +150,9 @@ body {
 /* --- SEÇÃO INICIAL (Imagem destaque) --- */
 .inicio {
     background-color: #ffffff;
-    padding: 60px 40px;
+    padding: 30px 40px 60px 40px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     min-height: 100vh;
 }
@@ -170,7 +170,7 @@ body {
     height: auto;
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     object-fit: cover;
 }
 
@@ -182,6 +182,173 @@ body {
     text-align: center;
     max-width: 600px;
     line-height: 1.5;
+}
+
+/* --- SEÇÃO SELF SERVICE --- */
+.self-service-area {
+    background-color: #fcfcfc; /* Fundo quase branco para separar da primeira seção */
+    padding: 60px 40px;
+    align-items: center;
+}
+
+.titulo-secao {
+    font-family: "Montserrat", sans-serif;
+    color: #420505;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+/* --- BOTÕES DE ABAS --- */
+.botoes-dias {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.btn-dia {
+    background-color: #e0e0e0;
+    color: #555;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px; /* Botões arredondados */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-dia.ativo {
+    background-color: #6a0909; /* Cor principal quando está selecionado */
+    color: #ffffff;
+    box-shadow: 0 4px 10px rgba(106, 9, 9, 0.3);
+}
+
+/* --- CONTROLE DAS ABAS --- */
+.conteudo-aba {
+    display: none; /* Esconde tudo por padrão */
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    animation: fadeIn 0.4s ease-in-out; /* Efeito suave ao aparecer */
+}
+
+.conteudo-aba.ativa {
+    display: flex; /* Mostra apenas a aba que tem a classe "ativa" */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* --- CARROSSEL MINIATURA --- */
+.carrossel-mini {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    max-width: 600px;
+    overflow-x: auto; /* Cria a rolagem horizontal */
+    scroll-snap-type: x mandatory; /* Faz a imagem "travar" no meio da tela ao rolar */
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+/* Esconde a barra de rolagem para ficar mais elegante */
+.carrossel-mini::-webkit-scrollbar {
+    height: 6px;
+}
+.carrossel-mini::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+}
+
+.img-carrossel {
+    flex: 0 0 auto;
+    width: 280px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    scroll-snap-align: center;
+}
+
+/* --- TEXTOS E PREÇOS --- */
+.textos-explicativos {
+    text-align: center;
+    max-width: 600px;
+}
+
+.textos-explicativos h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.textos-explicativos p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+/* Preço Destacado (Seg-Sab) */
+.caixa-preco-destaque {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #fff3f3;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px dashed #6a0909;
+}
+
+.preco-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.preco-item .valor {
+    font-size: 26px;
+    font-weight: bold;
+    color: #6a0909;
+}
+
+.preco-item .forma-pgto {
+    font-size: 13px;
+    color: #777;
+    text-transform: uppercase;
+}
+
+.separador-ou {
+    font-weight: bold;
+    color: #aaa;
+}
+
+/* Preço Discreto (Domingo) */
+.precos-domingo {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.opcao-domingo h4 {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 5px;
+}
+
+.preco-discreto {
+    font-size: 18px;
+    font-weight: bold;
+    color: #666; /* Cor mais suave, menos chamativa que o vermelho */
 }
 
 /* Estilização do Footer */

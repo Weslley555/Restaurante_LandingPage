@@ -77,8 +77,114 @@
 
             <hr class="separador-secao" />
 
-            <div class="secao azul" id="self-service">
-                <h2>Self Service</h2>
+            <!-- SEÇÃO SELF SERVICE (Substituindo a antiga aba azul) -->
+            <div class="secao self-service-area" id="self-service">
+                <h2 class="titulo-secao">Nosso Self Service</h2>
+
+                <!-- Botões de Troca (Tabs) -->
+                <div class="botoes-dias">
+                    <button
+                        class="btn-dia ativo"
+                        onclick="mostrarAba('semana', this)"
+                    >
+                        Seg a Sáb
+                    </button>
+                    <button
+                        class="btn-dia"
+                        onclick="mostrarAba('domingo', this)"
+                    >
+                        Domingo
+                    </button>
+                </div>
+
+                <!-- CONTEÚDO: SEGUNDA A SÁBADO -->
+                <div id="aba-semana" class="conteudo-aba ativa">
+                    <!-- Mini Carrossel (Scroll Horizontal) -->
+                    <div class="carrossel-mini">
+                        <!-- Troque pelas imagens reais depois -->
+                        <img
+                            src="imagens/self-semana1.jpg"
+                            alt="Prato dia de semana"
+                            class="img-carrossel"
+                        />
+                        <img
+                            src="imagens/self-semana2.jpg"
+                            alt="Prato dia de semana"
+                            class="img-carrossel"
+                        />
+                        <img
+                            src="imagens/self-semana3.jpg"
+                            alt="Prato dia de semana"
+                            class="img-carrossel"
+                        />
+                    </div>
+
+                    <div class="textos-explicativos">
+                        <h3>Comida à vontade + 1 Carne</h3>
+                        <p>
+                            Sirva-se à vontade no nosso buffet completo com o
+                            melhor do tempero caseiro.
+                        </p>
+
+                        <!-- Preços Destacados -->
+                        <div class="caixa-preco-destaque">
+                            <div class="preco-item dinheiro">
+                                <span class="valor">R$ 20,00</span>
+                                <span class="forma-pgto">dinheiro</span>
+                            </div>
+                            <span class="separador-ou">ou</span>
+                            <div class="preco-item cartao">
+                                <span class="valor">R$ 22,00</span>
+                                <span class="forma-pgto">cartão ou pix</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CONTEÚDO: DOMINGO -->
+                <div id="aba-domingo" class="conteudo-aba">
+                    <!-- Mini Carrossel (Scroll Horizontal) -->
+                    <div class="carrossel-mini">
+                        <!-- Troque pelas imagens reais depois -->
+                        <img
+                            src="imagens/self-domingo1.jpg"
+                            alt="Prato de domingo"
+                            class="img-carrossel"
+                        />
+                        <img
+                            src="imagens/self-domingo2.jpg"
+                            alt="Prato de domingo"
+                            class="img-carrossel"
+                        />
+                        <img
+                            src="imagens/self-domingo3.jpg"
+                            alt="Prato de domingo"
+                            class="img-carrossel"
+                        />
+                    </div>
+
+                    <div class="textos-explicativos">
+                        <h3>Almoço Especial de Domingo</h3>
+                        <p>
+                            Aproveite nosso buffet premium com duas opções
+                            exclusivas para o seu fim de semana.
+                        </p>
+
+                        <!-- Preços Menos Destacados -->
+                        <div class="precos-domingo">
+                            <div class="opcao-domingo">
+                                <h4>Self Service Carnes à Vontade</h4>
+                                <span class="preco-discreto">R$ 40,00</span>
+                            </div>
+                            <div class="opcao-domingo">
+                                <h4>Balança (Por Kg)</h4>
+                                <span class="preco-discreto"
+                                    >R$ 69,90 <small>/ kg</small></span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <hr class="separador-secao" />
@@ -102,5 +208,7 @@
             <a href="termos-de-uso.html">Termos de Uso</a>
             <a href="politica-de-privacidade.html">Política de Privacidade</a>
         </footer>
+
+        <script src="script.js"></script>
     </body>
 </html>
