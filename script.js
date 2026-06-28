@@ -1,14 +1,11 @@
 // Função para trocar as abas do Self Service
 function mostrarAba(aba, elementoClicado) {
-  // Esconde os conteúdos
   document.getElementById("aba-semana").classList.remove("ativa");
   document.getElementById("aba-domingo").classList.remove("ativa");
 
-  // Remove o destaque de todos os botões
   let botoes = document.querySelectorAll(".btn-dia");
   botoes.forEach((btn) => btn.classList.remove("ativo"));
 
-  // Mostra o conteúdo escolhido e destaca o botão clicado
   document.getElementById("aba-" + aba).classList.add("ativa");
   elementoClicado.classList.add("ativo");
 }
@@ -23,15 +20,41 @@ function mudarSlide(direcao) {
 
   indiceSlide += direcao;
 
-  // Se passou do último, volta para o primeiro
   if (indiceSlide >= totalSlides) {
     indiceSlide = 0;
-  }
-  // Se voltou antes do primeiro, vai para o último
-  else if (indiceSlide < 0) {
+  } else if (indiceSlide < 0) {
     indiceSlide = totalSlides - 1;
   }
 
-  // Move a trilha de imagens multiplicando a largura por slide (100%)
   track.style.transform = `translateX(-${indiceSlide * 100}%)`;
 }
+
+// --- LÓGICA DO AVISO DE COOKIES + GOOGLE ANALYTICS (LGPD) ---
+document.addEventListener("DOMContentLoaded", function () {
+  const aviso = document.getElementById("aviso-cookies");
+  const btnAceitar = document.getElementById("btn-aceitar-cookies");
+  const btnRecusar = document.getElementById("btn-recusar-cookies");
+  const decisao = localStorage.getItem("cookiesAceitos");
+
+  // Se já tomou uma decisão antes, esconde o banner
+  if (decisao !== null) {
+    aviso.style.display = "none";
+  } else {
+    aviso.style.display = "flex";
+  }
+
+  // Aceitar: salva consentimento e carrega o Analytics
+  btnAceitar.addEventListener("click", function () {
+    localStorage.setItem("cookiesAceitos", "sim");
+    aviso.style.display = "none";
+    if (typeof carregarAnalytics === "function") {
+      carregarAnalytics();
+    }
+  });
+
+  // Recusar: salva recusa, Analytics não é carregado
+  btnRecusar.addEventListener("click", function () {
+    localStorage.setItem("cookiesAceitos", "nao");
+    aviso.style.display = "none";
+  });
+});

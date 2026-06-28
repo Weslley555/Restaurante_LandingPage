@@ -1,360 +1,452 @@
 <!doctype html>
-<html>
+<html lang="pt-BR">
     <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Terreiro do Vovô</title>
-        <link rel="stylesheet" href="style.css" />
+
+        <!-- Título e Descrição Básica para o Google -->
+        <meta
+            name="description"
+            content="O autêntico sabor da roça no conforto da sua casa. Venha conhecer o Terreiro do Vovô: Self Service, Delivery e Espaço para Eventos."
+        />
+
+        <!-- Configuração para o WhatsApp, Facebook e Instagram (Open Graph) -->
+        <meta
+            property="og:title"
+            content="Terreiro do Vovô | Sabor que abraça"
+        />
+        <meta
+            property="og:description"
+            content="Peça nosso delivery, veja nosso cardápio de self service ou faça o orçamento da sua festa!"
+        />
+        <meta
+            property="og:image"
+            content="https://seusite.com.br/imagens/capa-whatsapp.jpg"
+        />
+        <meta property="og:url" content="https://seusite.com.br" />
+        <meta property="og:type" content="website" />
+
+        <!-- Google Analytics: carregado apenas após consentimento de cookies (LGPD) -->
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+
+            function carregarAnalytics() {
+                var script = document.createElement("script");
+                script.async = true;
+                script.src =
+                    "https://www.googletagmanager.com/gtag/js?id=G-5WRWWNTSXB";
+                document.head.appendChild(script);
+                script.onload = function () {
+                    gtag("js", new Date());
+                    gtag("config", "G-5WRWWNTSXB");
+                };
+            }
+
+            // Se já aceitou em visita anterior, carrega direto
+            if (localStorage.getItem("cookiesAceitos") === "sim") {
+                carregarAnalytics();
+            }
+        </script>
+
+        <link rel="stylesheet" href="style.css?v=5" />
     </head>
     <body>
-        <div class="content-container-esquerda">
-            <div class="cabecalho-logo">
-                <img
-                    src="imagens/logo.png"
-                    alt="Logo Terreiro do Vovô"
-                    class="imagem-logo"
-                />
-            </div>
-
-            <div class="textos-chamativos">
-                <h2 class="titulo-destaque">
-                    Comida caseira e deliciosa?<br />É no Terreiro do Vovô
-                </h2>
-                <p class="mini-texto">
-                    Do restaurante até a sua casa, vem conhecer nossos serviços.
-                </p>
-            </div>
-
-            <!-- BOTÕES DE NAVEGAÇÃO -->
-            <nav class="navegacao-servicos">
-                <!-- Botão 1: Self Service -->
-                <div class="div-botao">
-                    <a href="#self-service">
-                        <img
-                            src="imagens/almoco_b.svg"
-                            alt="Ir para Self Service"
-                            class="img-botao"
-                        />
-                    </a>
-                </div>
-
-                <!-- Botão 2: Delivery -->
-                <div class="div-botao">
-                    <a href="#delivery">
-                        <img
-                            src="imagens/delivery_b.svg"
-                            alt="Ir para Delivery"
-                            class="img-botao"
-                        />
-                    </a>
-                </div>
-
-                <!-- Botão 3: Eventos -->
-                <div class="div-botao">
-                    <a href="#eventos">
-                        <img
-                            src="imagens/festas_b.svg"
-                            alt="Ir para Festas e Eventos"
-                            class="img-botao"
-                        />
-                    </a>
-                </div>
-            </nav>
-        </div>
-
-        <div class="content-container-direita">
-            <div class="secao inicio" id="inicio">
-                <div class="destaque-principal">
+        <div class="colunas">
+            <div class="content-container-esquerda">
+                <div class="cabecalho-logo">
                     <img
-                        src="imagens/Banner_ia.png"
-                        alt="Prato em destaque do Terreiro do Vovô"
-                        class="imagem-destaque"
+                        src="imagens/logo.png"
+                        alt="Logo Terreiro do Vovô"
+                        class="imagem-logo"
                     />
-                    <p class="texto-marketing">
-                        O tempero inconfundível que você já conhece, servido com
-                        a tradição da nossa família para a sua.
+                </div>
+
+                <div class="textos-chamativos">
+                    <h2 class="titulo-destaque">
+                        Comida caseira e deliciosa?<br />É no Terreiro do Vovô
+                    </h2>
+                    <p class="mini-texto">
+                        Do restaurante até a sua casa, vem conhecer nossos
+                        serviços.
+                    </p>
+
+                    <p class="titulo-endereco">
+                        Rua Dr. Solon - N°06, Piranga, Mg
                     </p>
                 </div>
+
+                <hr class="separador-secao" />
+
+                <!-- BOTÕES DE NAVEGAÇÃO -->
+                <nav class="navegacao-servicos">
+                    <!-- Botão 1: Self Service -->
+                    <div class="div-botao">
+                        <a href="#self-service">
+                            <img
+                                src="imagens/almoco_b.svg"
+                                alt="Ir para Self Service"
+                                class="img-botao"
+                            />
+                        </a>
+                    </div>
+
+                    <!-- Botão 2: Delivery -->
+                    <div class="div-botao">
+                        <a href="#delivery">
+                            <img
+                                src="imagens/delivery_b.svg"
+                                alt="Ir para Delivery"
+                                class="img-botao"
+                            />
+                        </a>
+                    </div>
+
+                    <!-- Botão 3: Eventos -->
+                    <div class="div-botao">
+                        <a href="#eventos">
+                            <img
+                                src="imagens/festas_b.svg"
+                                alt="Ir para Festas e Eventos"
+                                class="img-botao"
+                            />
+                        </a>
+                    </div>
+                </nav>
+
+                <br />
+                <br />
+
+                <hr class="separador-secao" />
             </div>
 
-            <hr class="separador-secao" />
-
-            <!-- SEÇÃO SELF SERVICE (Substituindo a antiga aba azul) -->
-            <div class="secao self-service-area" id="self-service">
-                <h2 class="titulo-secao">Nosso Self Service</h2>
-
-                <!-- Botões de Troca (Tabs) -->
-                <div class="botoes-dias">
-                    <button
-                        class="btn-dia ativo"
-                        onclick="mostrarAba('semana', this)"
-                    >
-                        Seg a Sáb
-                    </button>
-                    <button
-                        class="btn-dia"
-                        onclick="mostrarAba('domingo', this)"
-                    >
-                        Domingo
-                    </button>
-                </div>
-
-                <!-- CONTEÚDO: SEGUNDA A SÁBADO -->
-                <div id="aba-semana" class="conteudo-aba ativa">
-                    <!-- Mini Carrossel (Scroll Horizontal) -->
-                    <div class="carrossel-mini">
-                        <!-- Troque pelas imagens reais depois -->
+            <div class="content-container-direita">
+                <div class="secao inicio" id="inicio">
+                    <div class="destaque-principal">
                         <img
-                            src="imagens/ia_1.png"
-                            alt="Prato dia de semana"
-                            class="img-carrossel"
+                            src="imagens/banner_ia.png"
+                            alt="Prato em destaque do Terreiro do Vovô"
+                            class="imagem-destaque"
                         />
-                        <img
-                            src="imagens/ia_2.png"
-                            alt="Prato dia de semana"
-                            class="img-carrossel"
-                        />
-                        <img
-                            src="imagens/ia_3.png"
-                            alt="Prato dia de semana"
-                            class="img-carrossel"
-                        />
-                    </div>
-
-                    <div class="textos-explicativos">
-                        <h3>Comida à vontade + 1 Carne</h3>
-                        <p>
-                            Sirva-se à vontade no nosso buffet completo com o
-                            melhor do tempero caseiro.
+                        <p class="texto-marketing">
+                            O tempero inconfundível que você já conhece, servido
+                            para você de diversas formas diferentes.
                         </p>
-
-                        <!-- Preços Destacados -->
-                        <div class="caixa-preco-destaque">
-                            <div class="preco-item dinheiro">
-                                <span class="valor">R$ 20,00</span>
-                                <span class="forma-pgto">dinheiro</span>
-                            </div>
-                            <span class="separador-ou">ou</span>
-                            <div class="preco-item cartao">
-                                <span class="valor">R$ 22,00</span>
-                                <span class="forma-pgto">cartão ou pix</span>
-                            </div>
-                        </div>
                     </div>
                 </div>
 
-                <!-- CONTEÚDO: DOMINGO -->
-                <div id="aba-domingo" class="conteudo-aba">
-                    <!-- Mini Carrossel (Scroll Horizontal) -->
-                    <div class="carrossel-mini">
-                        <!-- Troque pelas imagens reais depois -->
-                        <img
-                            src="imagens/ia_1.png"
-                            alt="Prato de domingo"
-                            class="img-carrossel"
-                        />
-                        <img
-                            src="imagens/ia_2.png"
-                            alt="Prato de domingo"
-                            class="img-carrossel"
-                        />
-                        <img
-                            src="imagens/ia_3.png"
-                            alt="Prato de domingo"
-                            class="img-carrossel"
-                        />
-                    </div>
+                <hr class="separador-secao" />
 
-                    <div class="textos-explicativos">
-                        <h3>Almoço Especial de Domingo</h3>
-                        <p>
-                            Aproveite nosso buffet premium com duas opções
-                            exclusivas para o seu fim de semana.
-                        </p>
+                <!-- SEÇÃO SELF SERVICE (Substituindo a antiga aba azul) -->
+                <div class="secao self-service-area" id="self-service">
+                    <h2 class="titulo-secao">Nosso Self Service</h2>
 
-                        <!-- Preços Menos Destacados -->
-                        <div class="precos-domingo">
-                            <div class="opcao-domingo">
-                                <h4>Self Service Carnes à Vontade</h4>
-                                <span class="preco-discreto">R$ 40,00</span>
-                            </div>
-                            <div class="opcao-domingo">
-                                <h4>Balança (Por Kg)</h4>
-                                <span class="preco-discreto"
-                                    >R$ 69,90 <small>/ kg</small></span
-                                >
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <hr class="separador-secao" />
-
-            <!-- SEÇÃO DELIVERY -->
-            <div class="secao delivery-area" id="delivery">
-                <div class="delivery-conteudo">
-                    <div class="delivery-texto">
-                        <h2 class="titulo-secao">
-                            Bateu a fome? A gente leva até você!
-                        </h2>
-                        <p class="descricao-delivery">
-                            Desfrute do nosso tempero inconfundível sem sair de
-                            casa. Preparamos e embalamos seu pedido com todo o
-                            cuidado para que chegue quentinho e perfeito para
-                            você.
-                        </p>
-
-                        <!-- Selos de Confiança -->
-                        <div class="vantagens-delivery">
-                            <div class="vantagem">
-                                🛵 <span>Entrega Rápida</span>
-                            </div>
-                            <div class="vantagem">
-                                📦 <span>Embalagem Segura</span>
-                            </div>
-                            <div class="vantagem">
-                                🌡️ <span>Comida Quentinha</span>
-                            </div>
-                        </div>
-
-                        <div class="delivery-imagem">
-                            <!-- Imagem do prato/embalagem de delivery -->
-                            <img
-                                src="imagens/ia_4.png"
-                                alt="Comida embalada para delivery"
-                                class="img-destaque-delivery"
-                            />
-                        </div>
-                    </div>
-
-                    <!-- Botão do WhatsApp (Substitua a imagem depois) -->
-                    <a
-                        href="https://wa.me/"
-                        target="_blank"
-                        class="link-whatsapp"
-                    >
-                        <img
-                            src="imagens/whatsapp_b.svg"
-                            alt="Peça aqui pelo WhatsApp"
-                            class="btn-peca-aqui"
-                        />
-                    </a>
-                </div>
-            </div>
-
-            <hr class="separador-secao" />
-
-            <!-- SEÇÃO EVENTOS E FESTAS -->
-            <div class="secao eventos-area" id="eventos">
-                <h2 class="titulo-secao text-center">Festas e Eventos</h2>
-                <p class="descricao-eventos">
-                    Realize seu momento especial com a gente. Conheça nosso
-                    espaço e escolha o plano perfeito para o seu evento.
-                </p>
-
-                <!-- CARROSSEL DE IMAGENS -->
-                <div class="carrossel-container">
-                    <button class="btn-carrossel prev" onclick="mudarSlide(-1)">
-                        &#10094;
-                    </button>
-                    <div class="carrossel-track-wrapper">
-                        <div class="carrossel-track" id="track-eventos">
-                            <img
-                                src="imagens/ia_5.png"
-                                alt="Decoração de evento"
-                                class="slide-evento"
-                            />
-                            <img
-                                src="imagens/ia_6.png"
-                                alt="Espaço do restaurante"
-                                class="slide-evento"
-                            />
-                            <img
-                                src="imagens/ia_7.png"
-                                alt="Festa realizada"
-                                class="slide-evento"
-                            />
-                            <img
-                                src="imagens/ia_8.png"
-                                alt="Festa realizada"
-                                class="slide-evento"
-                            />
-                            <img
-                                src="imagens/ia_9.png"
-                                alt="Festa realizada"
-                                class="slide-evento"
-                            />
-                        </div>
-                    </div>
-                    <button class="btn-carrossel next" onclick="mudarSlide(1)">
-                        &#10095;
-                    </button>
-                </div>
-
-                <!-- PLANOS ESTILO SaaS -->
-                <div class="container-planos">
-                    <!-- Plano 1: Aluguel -->
-                    <div class="cartao-plano">
-                        <h3>Aluguel do Espaço</h3>
-                        <ul class="lista-beneficios">
-                            <li>✔️ Uso exclusivo do salão</li>
-                            <li>✔️ Mesas e cadeiras inclusas</li>
-                            <li>✔️ Acesso liberado aos banheiros</li>
-                            <li>✔️ Limpeza pós-evento</li>
-                        </ul>
-                        <a
-                            href="https://wa.me/55SEUNUMERO?text=Olá, gostaria de um orçamento para Aluguel do Espaço"
-                            target="_blank"
-                            class="btn-orcamento"
-                            >Faça seu orçamento</a
+                    <!-- Botões de Troca (Tabs) -->
+                    <div class="botoes-dias">
+                        <button
+                            class="btn-dia ativo"
+                            onclick="mostrarAba('semana', this)"
                         >
+                            Seg a Sáb
+                        </button>
+                        <button
+                            class="btn-dia"
+                            onclick="mostrarAba('domingo', this)"
+                        >
+                            Domingo
+                        </button>
                     </div>
 
-                    <!-- Plano 2: Buffet (Destacado) -->
-                    <div class="cartao-plano destaque">
-                        <div class="badge-recomendado">Mais Escolhido</div>
-                        <h3>Serviço de Buffet</h3>
-                        <ul class="lista-beneficios">
-                            <li>✔️ Aluguel do espaço incluso</li>
-                            <li>✔️ Cardápio personalizado</li>
-                            <li>✔️ Equipe completa de garçons</li>
-                            <li>✔️ Bebidas e sobremesas</li>
-                        </ul>
-                        <a
-                            href="https://wa.me/55SEUNUMERO?text=Olá, gostaria de um orçamento para o Serviço de Buffet"
-                            target="_blank"
-                            class="btn-orcamento"
-                            >Faça seu orçamento</a
-                        >
+                    <!-- CONTEÚDO: SEGUNDA A SÁBADO -->
+                    <div id="aba-semana" class="conteudo-aba ativa">
+                        <!-- Mini Carrossel (Scroll Horizontal) -->
+                        <div class="carrossel-mini">
+                            <!-- Troque pelas imagens reais depois -->
+                            <img
+                                src="imagens/ia_1.png"
+                                alt="Prato dia de semana"
+                                class="img-carrossel"
+                            />
+                            <img
+                                src="imagens/ia_2.png"
+                                alt="Prato dia de semana"
+                                class="img-carrossel"
+                            />
+                            <img
+                                src="imagens/ia_3.png"
+                                alt="Prato dia de semana"
+                                class="img-carrossel"
+                            />
+                        </div>
+
+                        <div class="textos-explicativos">
+                            <h3>Comida à vontade + 1 Carne</h3>
+                            <p>
+                                Sirva-se à vontade no nosso self-sevice completo
+                                com o melhor do tempero caseiro.
+                            </p>
+
+                            <!-- Preços Destacados -->
+                            <div class="caixa-preco-destaque">
+                                <div class="preco-item dinheiro">
+                                    <span class="valor">R$ 20,00</span>
+                                    <span class="forma-pgto">dinheiro</span>
+                                </div>
+                                <span class="separador-ou">ou</span>
+                                <div class="preco-item cartao">
+                                    <span class="valor">R$ 22,00</span>
+                                    <span class="forma-pgto"
+                                        >cartão ou pix</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                    <!-- Plano 3: Entrega -->
-                    <div class="cartao-plano">
-                        <h3>Entrega em Domicílio</h3>
-                        <ul class="lista-beneficios">
-                            <li>✔️ Comida em grandes porções</li>
-                            <li>✔️ Embalagens térmicas adequadas</li>
-                            <li>✔️ Agendamento exato de horário</li>
-                            <li>✔️ Praticidade para a sua festa</li>
-                        </ul>
+                    <!-- CONTEÚDO: DOMINGO -->
+                    <div id="aba-domingo" class="conteudo-aba">
+                        <!-- Mini Carrossel (Scroll Horizontal) -->
+                        <div class="carrossel-mini">
+                            <!-- Troque pelas imagens reais depois -->
+                            <img
+                                src="imagens/ia_1.png"
+                                alt="Prato de domingo"
+                                class="img-carrossel"
+                            />
+                            <img
+                                src="imagens/ia_2.png"
+                                alt="Prato de domingo"
+                                class="img-carrossel"
+                            />
+                            <img
+                                src="imagens/ia_3.png"
+                                alt="Prato de domingo"
+                                class="img-carrossel"
+                            />
+                        </div>
+
+                        <div class="textos-explicativos">
+                            <h3>Almoço Especial de Domingo</h3>
+                            <p>
+                                Aproveite nosso buffet premium com duas opções
+                                exclusivas para o seu fim de semana.
+                            </p>
+
+                            <!-- Preços Menos Destacados -->
+                            <div class="precos-domingo">
+                                <div class="opcao-domingo">
+                                    <h4>Self Service Carnes à Vontade</h4>
+                                    <span class="preco-discreto">R$ 40,00</span>
+                                </div>
+                                <div class="opcao-domingo">
+                                    <h4>Balança (Por Kg)</h4>
+                                    <span class="preco-discreto"
+                                        >R$ 69,90 <small>/ kg</small></span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="separador-secao" />
+
+                <!-- SEÇÃO DELIVERY -->
+                <div class="secao delivery-area" id="delivery">
+                    <div class="delivery-conteudo">
+                        <div class="delivery-texto">
+                            <h2 class="titulo-secao">
+                                Bateu a fome? A gente leva até você!
+                            </h2>
+                            <p class="descricao-delivery">
+                                Desfrute do nosso tempero inconfundível sem sair
+                                de casa. Preparamos e embalamos seu pedido com
+                                todo o cuidado para que chegue quentinho e
+                                perfeito para você.
+                            </p>
+
+                            <!-- Selos de Confiança -->
+                            <div class="vantagens-delivery">
+                                <div class="vantagem">
+                                    🛵 <span>Entrega Rápida</span>
+                                </div>
+                                <div class="vantagem">
+                                    📦 <span>Embalagem Segura</span>
+                                </div>
+                                <div class="vantagem">
+                                    🌡️ <span>Comida Quentinha</span>
+                                </div>
+                            </div>
+
+                            <div class="delivery-imagem">
+                                <!-- Imagem do prato/embalagem de delivery -->
+                                <img
+                                    src="imagens/ia_4.png"
+                                    alt="Comida embalada para delivery"
+                                    class="img-destaque-delivery"
+                                />
+                            </div>
+                        </div>
+
+                        <!-- Botão do WhatsApp (Substitua a imagem depois) -->
                         <a
-                            href="https://wa.me/55SEUNUMERO?text=Olá, gostaria de um orçamento para Entrega em Domicílio (Eventos)"
+                            href="https://wa.me/"
                             target="_blank"
-                            class="btn-orcamento"
-                            >Faça seu orçamento</a
+                            class="link-whatsapp"
                         >
+                            <img
+                                src="imagens/whatsapp_b.svg"
+                                alt="Peça aqui pelo WhatsApp"
+                                class="btn-peca-aqui"
+                            />
+                        </a>
+                    </div>
+                </div>
+
+                <hr class="separador-secao" />
+
+                <!-- SEÇÃO EVENTOS E FESTAS -->
+                <div class="secao eventos-area" id="eventos">
+                    <h2 class="titulo-secao text-center">Festas e Eventos</h2>
+                    <p class="descricao-eventos">
+                        Realize seu momento especial com a gente. Conheça nosso
+                        espaço e escolha o plano perfeito para o seu evento.
+                    </p>
+
+                    <!-- CARROSSEL DE IMAGENS -->
+                    <div class="carrossel-container">
+                        <button
+                            class="btn-carrossel prev"
+                            onclick="mudarSlide(-1)"
+                        >
+                            &#10094;
+                        </button>
+                        <div class="carrossel-track-wrapper">
+                            <div class="carrossel-track" id="track-eventos">
+                                <img
+                                    src="imagens/ia_5.png"
+                                    alt="Decoração de evento"
+                                    class="slide-evento"
+                                />
+                                <img
+                                    src="imagens/ia_6.png"
+                                    alt="Espaço do restaurante"
+                                    class="slide-evento"
+                                />
+                                <img
+                                    src="imagens/ia_7.png"
+                                    alt="Festa realizada"
+                                    class="slide-evento"
+                                />
+                                <img
+                                    src="imagens/ia_8.png"
+                                    alt="Festa realizada"
+                                    class="slide-evento"
+                                />
+                                <img
+                                    src="imagens/ia_9.png"
+                                    alt="Festa realizada"
+                                    class="slide-evento"
+                                />
+                            </div>
+                        </div>
+                        <button
+                            class="btn-carrossel next"
+                            onclick="mudarSlide(1)"
+                        >
+                            &#10095;
+                        </button>
+                    </div>
+
+                    <!-- PLANOS ESTILO SaaS -->
+                    <div class="container-planos">
+                        <!-- Plano 1: Aluguel -->
+                        <div class="cartao-plano">
+                            <h3>Aluguel do Espaço</h3>
+                            <ul class="lista-beneficios">
+                                <li>✔️ Uso exclusivo do salão</li>
+                                <li>✔️ Mesas e cadeiras inclusas</li>
+                                <li>✔️ Acesso liberado aos banheiros</li>
+                                <li>✔️ Limpeza pós-evento</li>
+                            </ul>
+                            <a
+                                href="https://wa.me/55SEUNUMERO?text=Olá, gostaria de um orçamento para Aluguel do Espaço"
+                                target="_blank"
+                                class="btn-orcamento"
+                                >Faça seu orçamento</a
+                            >
+                        </div>
+
+                        <!-- Plano 2: Buffet (Destacado) -->
+                        <div class="cartao-plano destaque">
+                            <div class="badge-recomendado">Mais Escolhido</div>
+                            <h3>Serviço de Buffet</h3>
+                            <ul class="lista-beneficios">
+                                <li>✔️ Aluguel do espaço incluso</li>
+                                <li>✔️ Cardápio personalizado</li>
+                                <li>✔️ Equipe completa de garçons</li>
+                                <li>✔️ Bebidas e sobremesas</li>
+                            </ul>
+                            <a
+                                href="https://wa.me/55SEUNUMERO?text=Olá, gostaria de um orçamento para o Serviço de Buffet"
+                                target="_blank"
+                                class="btn-orcamento"
+                                >Faça seu orçamento</a
+                            >
+                        </div>
+
+                        <!-- Plano 3: Entrega -->
+                        <div class="cartao-plano">
+                            <h3>Entrega em Domicílio</h3>
+                            <ul class="lista-beneficios">
+                                <li>✔️ Comida em grandes porções</li>
+                                <li>✔️ Embalagens térmicas adequadas</li>
+                                <li>✔️ Agendamento exato de horário</li>
+                                <li>✔️ Praticidade para a sua festa</li>
+                            </ul>
+                            <a
+                                href="https://wa.me/55SEUNUMERO?text=Olá, gostaria de um orçamento para Entrega em Domicílio (Eventos)"
+                                target="_blank"
+                                class="btn-orcamento"
+                                >Faça seu orçamento</a
+                            >
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- fim .colunas -->
 
         <footer class="rodape-minimalista">
             <span>&copy; 2026 Terreiro do Vovô</span>
             <span class="separador">|</span>
             <a href="#contato">Contato</a>
             <a href="#social">Social</a>
-            <a href="termos-de-uso.html">Termos de Uso</a>
-            <a href="politica-de-privacidade.html">Política de Privacidade</a>
+            <a href="termos_uso.html">Termos de Uso</a>
+            <a href="politica_privacidade.html">Política de Privacidade</a>
         </footer>
+
+        <div id="aviso-cookies" class="aviso-cookies">
+            <p>
+                Usamos cookies para analisar o tráfego e melhorar sua
+                experiência. Você pode aceitar ou recusar — o site funciona
+                normalmente nas duas opções. Saiba mais em nossa
+                <a href="politica_privacidade.html">Política de Privacidade</a>
+                e nos nossos
+                <a href="termos_uso.html">Termos de Uso</a>.
+            </p>
+            <div class="botoes-cookies">
+                <button id="btn-aceitar-cookies" class="btn-cookies aceitar">
+                    Aceitar
+                </button>
+                <button id="btn-recusar-cookies" class="btn-cookies recusar">
+                    Recusar
+                </button>
+            </div>
+        </div>
 
         <script src="script.js"></script>
     </body>

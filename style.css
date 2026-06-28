@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap");
 * {
     box-sizing: border-box;
 }
@@ -8,33 +9,33 @@ body {
     margin: 0;
     padding: 0;
     background-color: #6a0909;
-    height: 100vh;
-    font-family: "Lato", sans-serif;
+    min-height: 100vh;
 }
 
-h1,
-h2,
-h3,
-.titulo-destaque,
-.titulo-secao,
-.texto-marketing {
-    font-family: "Playfair Display", serif;
+/* Wrapper que contém as duas colunas — footer fica fora e ocupa 100% */
+.colunas {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
 }
 
 /* Divs do Background */
 .content-container-direita {
     background-color: white;
     width: 60%;
-    height: 100%;
-    float: right;
+    min-height: 100vh;
     overflow-y: auto;
+    flex: 1;
 }
 
 .content-container-esquerda {
     background-color: #6a0909;
     width: 40%;
-    height: 100%;
-    float: left;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    flex-shrink: 0;
+    overflow-y: auto;
 }
 
 /* logo */
@@ -69,11 +70,18 @@ h3,
     padding: 0 30px;
     margin-top: 20px;
     color: #ffffff;
-    font-family: "Montserrat", sans-serif; /* Aplicando a fonte solicitada */
+    font-family: "Manrope", sans-serif; /* Aplicando a fonte solicitada */
 }
 
 .titulo-destaque {
     font-size: 22px;
+    font-weight: 700; /* Peso da fonte em negrito para destacar */
+    margin-bottom: 15px;
+    line-height: 1.4; /* Espaçamento entre as linhas para melhor leitura */
+}
+
+.titulo-endereco {
+    font-size: 16px;
     font-weight: 700; /* Peso da fonte em negrito para destacar */
     margin-bottom: 15px;
     line-height: 1.4; /* Espaçamento entre as linhas para melhor leitura */
@@ -186,7 +194,7 @@ h3,
 }
 
 .texto-marketing {
-    font-family: "Lato", sans-serif;
+    font-family: "Petit Formal Script", sans-serif;
     font-size: 22px;
     font-weight: 600;
     color: #420505;
@@ -444,7 +452,7 @@ h3,
         transform: scale(1);
     }
     50% {
-        transform: scale(1.04);
+        transform: scale(1.1);
     }
     100% {
         transform: scale(1);
@@ -620,7 +628,7 @@ h3,
 .rodape-minimalista {
     background-color: #420505; /* Vermelho mais escuro que a div da esquerda */
     color: #cccccc;
-    clear: both; /* Protege contra o float das divs acima */
+    /* clear:both removido — footer está fora do .colunas */
     padding: 15px 20px;
     font-family: Arial, sans-serif;
     font-size: 13px;
@@ -649,4 +657,454 @@ h3,
 .separador {
     color: #777777;
     user-select: none;
+}
+
+/* --- AVISO DE COOKIES --- */
+.aviso-cookies {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    font-size: 14px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.aviso-cookies p {
+    margin: 0;
+    max-width: 800px;
+}
+
+.botoes-cookies {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-shrink: 0;
+    margin-left: 20px;
+}
+
+.btn-cookies {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    white-space: nowrap;
+    transition: opacity 0.2s;
+}
+
+.btn-cookies:hover {
+    opacity: 0.85;
+}
+
+.btn-cookies.aceitar {
+    background-color: #25d366;
+    color: white;
+    border: 1px solid #888;
+}
+
+.btn-cookies.recusar {
+    background-color: red;
+    color: #fff;
+    border: 1px solid #888;
+}
+
+/* ========================================= */
+/* --- PÁGINAS LEGAIS E DOCUMENTOS --- */
+/* ========================================= */
+
+.cabecalho-simples {
+    background-color: #6a0909;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.cabecalho-simples img {
+    height: 150px; /* Ajuste conforme o tamanho da sua logo */
+}
+
+.container-legal {
+    max-width: 800px; /* Limita a largura para a leitura não cansar os olhos */
+    margin: 50px auto;
+    padding: 0 20px;
+    background-color: #ffffff;
+}
+
+.container-legal h1 {
+    font-family:
+        "Playfair Display", serif; /* Usa a fonte elegante que definimos */
+    color: #6a0909;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.container-legal h2 {
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.container-legal p,
+.container-legal ul {
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.container-legal ul {
+    padding-left: 20px;
+}
+
+.container-legal li {
+    margin-bottom: 10px;
+}
+
+/* ===========================================
+   RESPONSIVIDADE
+   =========================================== */
+
+/* --- TABLET (até 1024px) --- */
+@media (max-width: 1024px) {
+    .content-container-esquerda {
+        width: 35%;
+        position: sticky;
+        top: 0;
+        min-height: 100vh;
+    }
+
+    .content-container-direita {
+        width: 65%;
+    }
+
+    .div-botao {
+        width: 120px;
+    }
+
+    .titulo-destaque {
+        font-size: 18px;
+    }
+
+    .navegacao-servicos {
+        gap: 12px;
+        padding: 0 20px;
+    }
+
+    .container-planos {
+        gap: 15px;
+    }
+
+    .cartao-plano {
+        width: 240px;
+    }
+}
+
+/* --- MOBILE (até 768px) --- */
+@media (max-width: 768px) {
+    /* Wrapper vira coluna no mobile */
+    .colunas {
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    /* Div esquerda vira navbar compacta e sticky */
+    .content-container-esquerda {
+        width: 100%;
+        height: auto;
+        min-height: auto;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        padding: 8px 16px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 4px;
+        overflow-y: visible;
+    }
+
+    .content-container-direita {
+        width: 100%;
+        min-height: auto;
+        flex: none;
+    }
+
+    /* Logo menor */
+    .imagem-logo {
+        width: 200px;
+    }
+
+    /* Textos ocultos na navbar mobile */
+    .textos-chamativos {
+        display: none;
+    }
+
+    /* Logo sem margem extra */
+    .cabecalho-logo {
+        margin-top: 0;
+        padding: 0;
+        justify-content: flex-start;
+        flex-shrink: 0;
+    }
+
+    .imagem-logo {
+        width: 170px;
+    }
+
+    /* Botões em linha ao lado da logo */
+    .navegacao-servicos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 8px;
+        margin-top: 0;
+        padding: 0;
+        flex: 1;
+    }
+
+    .div-botao {
+        width: 72px;
+        max-width: none;
+    }
+
+    /* Seções com padding reduzido */
+    .secao {
+        padding: 30px 20px;
+        min-height: auto;
+    }
+
+    .inicio {
+        padding: 20px 15px 40px 15px;
+    }
+
+    /* Imagem destaque */
+    .imagem-destaque {
+        max-width: 100%;
+    }
+
+    .texto-marketing {
+        font-size: 16px;
+    }
+
+    /* Self Service */
+    .self-service-area {
+        padding: 40px 20px;
+    }
+
+    .titulo-secao {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .btn-dia {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .carrossel-mini {
+        max-width: 100%;
+    }
+
+    .img-carrossel {
+        width: 240px;
+        height: 155px;
+    }
+
+    .textos-explicativos {
+        max-width: 100%;
+    }
+
+    /* Preços em coluna no mobile */
+    .caixa-preco-destaque {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .preco-item .valor {
+        font-size: 22px;
+    }
+
+    .precos-domingo {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Delivery */
+    .delivery-area {
+        padding: 50px 20px;
+    }
+
+    .delivery-conteudo {
+        max-width: 100%;
+        gap: 25px;
+    }
+
+    .descricao-delivery {
+        font-size: 15px;
+    }
+
+    .vantagens-delivery {
+        gap: 10px;
+    }
+
+    .vantagem {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+
+    .img-destaque-delivery {
+        max-width: 100%;
+    }
+
+    .btn-peca-aqui {
+        width: 200px;
+    }
+
+    /* Eventos */
+    .eventos-area {
+        padding: 50px 20px;
+    }
+
+    .carrossel-container {
+        gap: 8px;
+    }
+
+    .slide-evento {
+        height: 220px;
+    }
+
+    .btn-carrossel {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+    }
+
+    /* Planos em coluna */
+    .container-planos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cartao-plano {
+        width: 100%;
+        max-width: 360px;
+    }
+
+    /* Remove o scale no plano destaque para não vazar */
+    .cartao-plano.destaque {
+        transform: none;
+    }
+
+    .cartao-plano.destaque:hover {
+        transform: translateY(-5px);
+    }
+
+    /* Footer */
+    .rodape-minimalista {
+        gap: 12px;
+        font-size: 12px;
+    }
+
+    .separador {
+        display: none;
+    }
+
+    /* Aviso de cookies */
+    .aviso-cookies {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        padding: 14px 16px;
+        font-size: 13px;
+    }
+
+    .aviso-cookies p {
+        max-width: 100%;
+    }
+
+    .btn-cookies {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* Páginas legais */
+    .cabecalho-simples img {
+        height: 120px;
+    }
+
+    .container-legal {
+        margin: 30px auto;
+        padding: 0 16px;
+    }
+
+    .container-legal h1 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .container-legal h2 {
+        font-size: 17px;
+    }
+}
+
+/* --- MOBILE PEQUENO (até 400px) --- */
+@media (max-width: 400px) {
+    .imagem-logo {
+        width: 130px;
+    }
+
+    .titulo-destaque {
+        font-size: 15px;
+    }
+
+    .div-botao {
+        width: 75px;
+    }
+
+    .img-carrossel {
+        width: 200px;
+        height: 130px;
+    }
+
+    .btn-dia {
+        padding: 8px 14px;
+        font-size: 13px;
+    }
+
+    .slide-evento {
+        height: 180px;
+    }
+
+    .titulo-secao {
+        font-size: 20px;
+    }
+
+    .texto-marketing {
+        font-size: 14px;
+    }
+
+    /* Aviso de cookies — mobile pequeno */
+    .aviso-cookies {
+        font-size: 12px;
+        padding: 12px 12px;
+    }
+
+    /* Páginas legais — mobile pequeno */
+    .container-legal {
+        margin: 20px auto;
+    }
+
+    .container-legal h1 {
+        font-size: 19px;
+    }
 }
