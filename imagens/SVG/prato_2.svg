@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="180" viewBox="0 0 280 180" fill="none" role="img" aria-labelledby="p2-title p2-desc" lang="pt-BR">
+  <title id="p2-title">Frango dourado com arroz e legumes</title>
+  <desc id="p2-desc">Travessa oval de cerâmica terracota com frango grelhado em fatias, arroz com ervilhas, brócolis, cenoura, abobrinha e uma cunha de limão. Composição vista de cima sobre madeira mel, com linho creme e talher de cabo vinho.</desc>
+  <defs>
+    <linearGradient id="p2-bg" x2="1" y2="1"><stop stop-color="#f6e8d4"/><stop offset="1" stop-color="#d8af7e"/></linearGradient>
+    <linearGradient id="p2-clay" x2=".5" y2="1"><stop stop-color="#dbab81"/><stop offset=".45" stop-color="#b77350"/><stop offset="1" stop-color="#86412d"/></linearGradient>
+    <radialGradient id="p2-glaze" cx=".3" cy=".2" r=".9"><stop stop-color="#fffaf4"/><stop offset=".65" stop-color="#f3e6cf"/><stop offset="1" stop-color="#d4b18a"/></radialGradient>
+    <radialGradient id="p2-shadow"><stop stop-color="#704b2f" stop-opacity=".32"/><stop offset=".73" stop-color="#704b2f" stop-opacity=".14"/><stop offset="1" stop-color="#704b2f" stop-opacity="0"/></radialGradient>
+    <linearGradient id="p2-chicken" x1=".15" y1="0" x2=".8" y2="1"><stop stop-color="#f1ca7d"/><stop offset=".35" stop-color="#d59b4f"/><stop offset=".72" stop-color="#b57336"/><stop offset="1" stop-color="#85502b"/></linearGradient>
+    <linearGradient id="p2-cut" x2="0" y2="1"><stop stop-color="#fff0ce"/><stop offset=".6" stop-color="#efd3a2"/><stop offset="1" stop-color="#ba8b56"/></linearGradient>
+    <linearGradient id="p2-green" x2=".6" y2="1"><stop stop-color="#9cae64"/><stop offset=".5" stop-color="#698349"/><stop offset="1" stop-color="#405a34"/></linearGradient>
+    <linearGradient id="p2-carrot" x2=".7" y2="1"><stop stop-color="#f2b675"/><stop offset=".5" stop-color="#de9550"/><stop offset="1" stop-color="#b56937"/></linearGradient>
+    <linearGradient id="p2-metal" x2="1" y2=".1"><stop stop-color="#858b79"/><stop offset=".35" stop-color="#fffaf4"/><stop offset="1" stop-color="#9aab9c"/></linearGradient>
+    <pattern id="p2-wood" width="280" height="46" patternUnits="userSpaceOnUse"><path d="M0 10C67-1 112 25 186 10S249 2 280 12M0 15C66 5 130 32 199 16S257 11 280 18M0 43H280" stroke="#94653e" stroke-opacity=".16" stroke-width=".7"/></pattern>
+    <pattern id="p2-linen" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 1H4M1 0V4" stroke="#bba589" stroke-opacity=".24" stroke-width=".45"/></pattern>
+    <pattern id="p2-rice" width="17" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(23)"><path d="M1 4Q4 0 6 3Q5 6 1 4M10 2Q13-1 14 3Q12 6 10 2M5 11Q8 7 10 10Q8 14 5 11M13 13Q16 9 17 12Q16 16 13 13" fill="#fff8de" stroke="#d3bb87" stroke-width=".5"/><path d="m1 14 2-2m6-6 2 1" stroke="#fffdf3" stroke-width="1.2" stroke-linecap="round"/></pattern>
+    <pattern id="p2-speckle" width="12" height="11" patternUnits="userSpaceOnUse"><path d="M2 2h.3m6 6h.4" stroke="#9c704b" stroke-opacity=".27" stroke-width=".7" stroke-linecap="round"/></pattern>
+    <symbol id="p2-broccoli" viewBox="0 0 34 35"><path d="m13 19-4 12 6 3 8-14" fill="#a8b774"/><path d="m14 29 4-10m-4 4-5-4m10 3 6-4" stroke="#d2d9a0" stroke-width="1"/><path d="M5 23C-2 20 0 12 5 11C2 5 9 1 14 4C17-2 27 0 26 6C34 5 36 13 30 17C34 23 25 28 21 22C17 28 12 21 9 24Z" fill="url(#p2-green)"/><path d="m6 11 2-3m6 1 2-3m7 5 2-3m-16 9 2-2m7 2 2-2m7 1 1-2" stroke="#b2c07f" stroke-width="1.4" stroke-linecap="round"/></symbol>
+    <symbol id="p2-carrot-piece" viewBox="0 0 28 19"><path d="m2 5 17-4 8 9-16 8L1 13Z" fill="#b9743d"/><path d="m2 5 17-4 6 6-15 8-9-2Z" fill="url(#p2-carrot)"/><path d="m6 6 11-3m-6 7 9-4" stroke="#f8cf95" stroke-width="1" stroke-linecap="round"/></symbol>
+    <symbol id="p2-zucchini" viewBox="0 0 26 23"><path d="M2 8C6-2 23 0 24 9C27 17 16 25 7 21C1 19-1 13 2 8Z" fill="#667a42"/><path d="M4 7C9-1 21 2 22 8C24 14 15 21 8 18C3 17 1 12 4 7Z" fill="#d9d9a3" stroke="#97a566" stroke-width="1"/><path d="m9 6 2 4m7-4-4 5m-6 2 4-1m4 4-2-3" stroke="#abb77d" stroke-width="1.4" stroke-linecap="round"/><path d="m6 16 3 1m11-6-2 3" stroke="#bdba78" stroke-width="1"/></symbol>
+    <symbol id="p2-pea" viewBox="0 0 8 8"><path d="M1 2C3-1 7 0 8 4C8 8 3 9 1 6C0 5 0 3 1 2Z" fill="url(#p2-green)"/><path d="m2 3 2-1" stroke="#ccd692" stroke-width=".9" stroke-linecap="round"/></symbol>
+    <path id="p2-rice-mound" d="M65 64C68 53 82 48 92 51C103 44 116 52 120 61C131 66 127 81 122 86C126 97 111 109 101 106C89 113 74 107 70 98C59 96 57 83 63 77C58 71 61 65 65 64Z"/>
+    <path id="p2-fillet" d="M111 112C121 96 145 91 164 98C178 103 185 114 187 123C188 138 173 149 158 150C136 154 112 146 106 133C102 125 106 118 111 112Z"/>
+    <clipPath id="p2-fillet-clip"><use href="#p2-fillet"/></clipPath>
+  </defs>
+  <path d="M0 0H280V180H0Z" fill="url(#p2-bg)"/>
+  <path d="M0 0H280V180H0Z" fill="url(#p2-wood)"/>
+  <path d="M0 7 82 0 124 64 20 154 0 129Z" fill="#fffaf4"/>
+  <path d="M0 7 82 0 124 64 20 154 0 129Z" fill="url(#p2-linen)"/>
+  <path d="M2 124 111 58M6 128 113 63" stroke="#6a0909" stroke-width="1" stroke-opacity=".64"/>
+  <path d="m15 150 6 6m-1-10 6 6m-1-10 6 6m-1-10 6 6" stroke="#d6c6ae" stroke-width=".8"/>
+  <ellipse cx="143" cy="103" rx="111" ry="71" fill="url(#p2-shadow)" transform="rotate(-9 143 103)"/>
+  <g transform="rotate(-9 138 94)">
+    <path d="M36 91C36 52 78 26 136 26C196 24 239 52 240 92C241 134 197 161 140 162C81 164 38 139 36 91Z" fill="#914c31"/>
+    <path d="M35 88C36 48 79 22 136 23C195 21 238 48 239 88C240 129 197 157 139 159C81 160 36 135 35 88Z" fill="url(#p2-clay)" stroke="#e8b994" stroke-width="1.4"/>
+    <path d="M43 87C44 53 83 30 137 30C189 28 229 51 231 88C232 123 193 150 139 152C86 154 44 131 43 87Z" stroke="#f5d4ad" stroke-width="1" stroke-opacity=".85"/>
+    <path d="M51 88C51 57 88 37 137 37C185 35 222 56 223 89C224 120 188 143 139 145C91 147 52 125 51 88Z" fill="url(#p2-glaze)" stroke="#9b6242" stroke-width=".8"/>
+    <path d="M51 88C51 57 88 37 137 37C185 35 222 56 223 89C224 120 188 143 139 145C91 147 52 125 51 88Z" fill="url(#p2-speckle)"/>
+    <path d="M49 69Q70 35 129 33" stroke="#ffe5c4" stroke-width="1.6" stroke-linecap="round"/>
+    <use href="#p2-rice-mound" fill="#c6b082" transform="translate(0 2)"/><use href="#p2-rice-mound" fill="#eddfb3"/><use href="#p2-rice-mound" fill="url(#p2-rice)"/>
+    <use href="#p2-pea" x="77" y="62" width="6" height="6"/><use href="#p2-pea" x="100" y="54" width="6" height="6"/><use href="#p2-pea" x="93" y="77" width="7" height="7"/><use href="#p2-pea" x="110" y="85" width="6" height="6"/><use href="#p2-pea" x="77" y="94" width="6" height="6"/><use href="#p2-pea" x="115" y="67" width="5" height="5"/>
+    <path d="m87 57 3 1m-17 23 2-2m25 18 3-1" stroke="#bf8743" stroke-width="1.2" stroke-linecap="round"/>
+    <use href="#p2-broccoli" x="134" y="44" width="32" height="34" transform="rotate(-21 150 61)"/><use href="#p2-broccoli" x="180" y="61" width="34" height="35" transform="rotate(22 197 78)"/>
+    <use href="#p2-carrot-piece" x="160" y="47" width="27" height="20" transform="rotate(-16 173 57)"/><use href="#p2-carrot-piece" x="143" y="77" width="27" height="20" transform="rotate(21 156 87)"/><use href="#p2-carrot-piece" x="191" y="94" width="24" height="17" transform="rotate(-28 203 102)"/>
+    <use href="#p2-zucchini" x="166" y="65" width="25" height="24" transform="rotate(15 178 77)"/><use href="#p2-zucchini" x="175" y="85" width="25" height="24" transform="rotate(-24 187 97)"/>
+    <path d="m136 74 5 5m33-33 4 3m-4 49 3 2" stroke="#5d733b" stroke-width="1.6" stroke-linecap="round"/>
+    <use href="#p2-fillet" fill="#75502e" opacity=".24" transform="translate(1 3)"/>
+    <use href="#p2-fillet" fill="url(#p2-chicken)" stroke="#9b6535" stroke-width=".8"/>
+    <g clip-path="url(#p2-fillet-clip)">
+      <path d="m104 119 66-29m-62 42 79-35m-72 48 83-37m-65 48 63-31" stroke="#87502a" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="m106 116 62-27m-58 40 77-34m-70 48 80-36m-63 47 61-30" stroke="#f3ce86" stroke-width=".8" stroke-linecap="round"/>
+      <path d="M128 95Q122 122 151 155M142 93Q137 122 165 154M157 94Q153 123 180 148" stroke="#795235" stroke-width="4.2"/>
+      <path d="M126 94Q120 121 149 154M140 92Q135 121 163 153M155 93Q151 122 178 147" stroke="url(#p2-cut)" stroke-width="3.5"/>
+      <path d="m113 122 2 2m16 9 2 1m11-29 3 2m19 9 2 2m-14 25 3 1m-16-28 2 1m35 10 2 1" stroke="#fbe4aa" stroke-width="1.1" stroke-linecap="round"/>
+    </g>
+    <path d="M116 111q11-11 21-10" stroke="#ffe4aa" stroke-width="1.3" stroke-linecap="round"/>
+    <path d="m166 137 9-22m-6 16q-8 0-8-6 6-2 8 6m2-6q-7-1-6-6 6-1 6 6m1-3q4-7 8-3-2 5-8 3m-2 8q7-6 10-1-3 5-10 1" fill="#74844a" stroke="#536d3a" stroke-width=".65"/>
+    <path d="M188 121 215 110Q223 124 211 137Q203 143 194 138Z" fill="#a5a55c" stroke="#7a833d" stroke-width=".7"/>
+    <path d="m188 119 27-10q8 14-5 25-7 6-15 2Z" fill="#f2e6a3" stroke="#fff4c8" stroke-width="1.2"/>
+    <path d="m192 120 19-7q4 9-3 15-5 5-11 4Z" fill="#ddcd82"/>
+    <path d="m193 120 18-5m-18 5 17 3m-17-3 11 11m-11-11 4 12" stroke="#fff4c6" stroke-width="1"/>
+    <path d="m204 119 2 1m-6 7 2 1" stroke="#fffaf4" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(245 37) rotate(12)"><path d="M0 0v20q0 7 6 9l-1 29h7l-1-29q6-3 6-9V0h-2v18h-2V0h-3v18H8V0H5v18H3V0Z" fill="url(#p2-metal)" stroke="#899383" stroke-width=".35"/><path d="m5 57-1 40q0 6 5 6t5-6l-2-40Z" fill="#6a0909" stroke="#541319" stroke-width=".6"/><path d="m7 63-1 31" stroke="#a04d3e" stroke-width="1.2" stroke-linecap="round"/><path d="M9 63h.1m-.1 29h.1" stroke="#d9c2a3" stroke-width="1.7" stroke-linecap="round"/></g>
+  <path d="M23 164q14-4 27-15m-18 12q-12-2-8-8 7-2 8 8m6-5q-5-12 2-12 5 3-2 12m6-4q8 4 11-3-6-4-11 3" fill="#7d8a50" stroke="#697641" stroke-width=".8"/>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="180" viewBox="0 0 280 180" fill="none" role="img" aria-labelledby="p3-title p3-desc" lang="pt-BR">
+  <title id="p3-title">Pudim caseiro com calda de caramelo</title>
+  <desc id="p3-desc">Pudim de leite em forma de anel canelado, visto em três quartos, com superfície âmbar brilhante e fios de caramelo sobre as laterais douradas. Calda espalhada em prato de cerâmica creme com borda vinho, uma colher e um pequeno ramo de hortelã sobre linho.</desc>
+  <defs>
+    <linearGradient id="p3-bg" x2=".8" y2="1"><stop stop-color="#fffaf4"/><stop offset=".6" stop-color="#f3e4cf"/><stop offset="1" stop-color="#dfc2a0"/></linearGradient>
+    <radialGradient id="p3-shadow"><stop stop-color="#735034" stop-opacity=".33"/><stop offset=".7" stop-color="#735034" stop-opacity=".16"/><stop offset="1" stop-color="#735034" stop-opacity="0"/></radialGradient>
+    <linearGradient id="p3-plate" x2=".5" y2="1"><stop stop-color="#fffdf9"/><stop offset=".5" stop-color="#f6eada"/><stop offset="1" stop-color="#c9b597"/></linearGradient>
+    <radialGradient id="p3-well" cx=".4" cy=".2" r=".85"><stop stop-color="#fffaf4"/><stop offset="1" stop-color="#e9d9bc"/></radialGradient>
+    <linearGradient id="p3-custard" x1=".1" y1="0" x2=".85" y2=".8"><stop stop-color="#e8b868"/><stop offset=".22" stop-color="#ffe3a0"/><stop offset=".48" stop-color="#f3cf84"/><stop offset=".75" stop-color="#dfaa55"/><stop offset="1" stop-color="#b87a35"/></linearGradient>
+    <linearGradient id="p3-flute" x2="1" y2=".1"><stop stop-color="#a66a30" stop-opacity=".35"/><stop offset=".3" stop-color="#ffe8b2" stop-opacity=".45"/><stop offset=".57" stop-color="#fff0be" stop-opacity=".6"/><stop offset="1" stop-color="#b37a33" stop-opacity=".2"/></linearGradient>
+    <linearGradient id="p3-caramel" x1=".25" y1="0" x2=".75" y2="1"><stop stop-color="#e1a052"/><stop offset=".25" stop-color="#c9843b"/><stop offset=".62" stop-color="#a35522"/><stop offset="1" stop-color="#743417"/></linearGradient>
+    <linearGradient id="p3-syrup" x2=".8" y2="1"><stop stop-color="#d6a058"/><stop offset=".45" stop-color="#b67832"/><stop offset="1" stop-color="#89411e"/></linearGradient>
+    <linearGradient id="p3-drip" x2=".1" y2="1"><stop stop-color="#9c4b20"/><stop offset=".7" stop-color="#c1853c"/><stop offset="1" stop-color="#dfac60" stop-opacity=".5"/></linearGradient>
+    <linearGradient id="p3-hole" x2=".1" y2="1"><stop stop-color="#693017"/><stop offset=".5" stop-color="#b16d2e"/><stop offset="1" stop-color="#edc17a"/></linearGradient>
+    <linearGradient id="p3-metal" x2="1" y2=".2"><stop stop-color="#818b7c"/><stop offset=".25" stop-color="#e9ece0"/><stop offset=".45" stop-color="#fffaf4"/><stop offset=".75" stop-color="#a6b0a2"/><stop offset="1" stop-color="#738274"/></linearGradient>
+    <radialGradient id="p3-spoon" cx=".4" cy=".33" r=".8"><stop stop-color="#919e8f"/><stop offset=".5" stop-color="#ced5c7"/><stop offset=".78" stop-color="#fdfbf0"/><stop offset="1" stop-color="#889584"/></radialGradient>
+    <linearGradient id="p3-mint" x2=".7" y2="1"><stop stop-color="#a5b079"/><stop offset=".4" stop-color="#7d9056"/><stop offset="1" stop-color="#46603a"/></linearGradient>
+    <pattern id="p3-grain" width="280" height="53" patternUnits="userSpaceOnUse"><path d="M0 13C74 0 106 24 176 14S250 7 280 15M0 20C70 8 112 31 191 20S255 15 280 22M0 50H280" stroke="#b48b60" stroke-opacity=".12" stroke-width=".7"/></pattern>
+    <pattern id="p3-linen" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 1H4M1 0V4" stroke="#b9a68c" stroke-opacity=".25" stroke-width=".5"/></pattern>
+    <pattern id="p3-speckle" width="14" height="12" patternUnits="userSpaceOnUse"><path d="M2 4h.3m8 5h.3" stroke="#9e8262" stroke-opacity=".22" stroke-width=".7" stroke-linecap="round"/></pattern>
+    <path id="p3-body" d="M89 69C88 60 101 51 118 49C138 44 165 49 180 61L185 77 197 112C200 120 191 126 183 127C176 135 165 134 159 137C149 141 140 138 133 140C122 141 115 137 108 137C100 136 97 132 92 131C82 129 77 123 79 117L86 81Z"/>
+    <clipPath id="p3-body-clip"><use href="#p3-body"/></clipPath>
+    <symbol id="p3-mint-leaf" viewBox="0 0 25 34"><path d="M12 33 8 29 5 28 5 24 2 21 3 17 1 14 4 11 4 8 8 6 9 3 13 1 16 4 20 5 20 9 23 11 22 15 24 19 21 22 21 25 17 28Z" fill="url(#p3-mint)"/><path d="M12 31 13 5m0 9-6-4m6 11-8-5m8 11-7-5m7-4 6-5m-6 11 6-5" stroke="#d0d8a4" stroke-width=".7" stroke-opacity=".75"/></symbol>
+  </defs>
+  <path d="M0 0H280V180H0Z" fill="url(#p3-bg)"/>
+  <path d="M0 0H280V180H0Z" fill="url(#p3-grain)"/>
+  <path d="M0 31 40 14 114 164 86 180H0Z" fill="#fffaf4"/>
+  <path d="M0 31 40 14 114 164 86 180H0Z" fill="url(#p3-linen)"/>
+  <path d="m26 23 73 145m-69-147 73 145" stroke="#6a0909" stroke-opacity=".7" stroke-width="1"/>
+  <path d="M0 116q25 23 53 60" stroke="#dfd2bd" stroke-width="2" stroke-opacity=".5"/>
+  <path d="m219 0 61 0v40l-17 14Z" fill="#6a0909"/>
+  <path d="m219 0 61 0v40l-17 14Z" fill="url(#p3-linen)"/>
+  <path d="m230 1 35 43" stroke="#d6aa8d" stroke-width="1" stroke-opacity=".65"/>
+  <ellipse cx="145" cy="137" rx="112" ry="39" fill="url(#p3-shadow)"/>
+  <path d="M38 119C40 92 82 76 136 77C191 76 234 95 237 119L234 130C224 154 179 168 135 166C85 167 46 151 40 131Z" fill="#c8b08d"/>
+  <ellipse cx="137" cy="118" rx="100" ry="46" fill="url(#p3-plate)" stroke="#fffaf4" stroke-width="1.3"/>
+  <ellipse cx="137" cy="117" rx="93" ry="40" stroke="#6a0909" stroke-opacity=".75" stroke-width="1.1"/>
+  <ellipse cx="137" cy="117" rx="87" ry="36" fill="url(#p3-speckle)"/>
+  <ellipse cx="137" cy="118" rx="78" ry="32" fill="url(#p3-well)" stroke="#decaad" stroke-width=".7"/>
+  <path d="M45 115Q52 89 103 83M77 151Q129 170 187 153" stroke="#fffdf8" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M78 108C92 96 113 101 128 98C149 96 166 103 182 105C198 107 209 115 206 123C204 131 188 132 180 136C168 144 151 141 140 144C120 148 103 141 91 140C75 138 65 132 67 124C65 116 71 113 78 108Z" fill="url(#p3-syrup)" stroke="#ba813d" stroke-width=".7"/>
+  <path d="M75 123Q74 136 100 135M145 140Q171 140 179 132M188 117q13 1 12 7" stroke="#f4cc86" stroke-opacity=".8" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M89 122Q128 145 181 127" stroke="#6d3419" stroke-opacity=".23" stroke-width="7" stroke-linecap="round"/>
+  <use href="#p3-body" fill="url(#p3-custard)" stroke="#c49550" stroke-width=".7"/>
+  <g clip-path="url(#p3-body-clip)">
+    <path d="M91 69Q90 99 83 118Q82 125 94 129L103 81Z" fill="url(#p3-flute)"/>
+    <path d="M105 80Q103 103 99 123Q96 131 108 135L118 85Z" fill="url(#p3-flute)"/>
+    <path d="M121 87Q120 110 117 132Q116 139 131 139L135 88Z" fill="url(#p3-flute)"/>
+    <path d="M140 87 141 137Q148 143 159 137L154 86Z" fill="url(#p3-flute)"/>
+    <path d="M159 84 165 134Q171 137 181 129L171 78Z" fill="url(#p3-flute)"/>
+    <path d="M177 73 185 125Q196 124 197 117L185 69Z" fill="url(#p3-flute)"/>
+    <path d="M103 84 96 122M120 92l-4 39m23-36v37m18-40 6 37m12-45 8 35" stroke="#ffe8ac" stroke-opacity=".56" stroke-width="1.1" stroke-linecap="round"/>
+    <path d="m90 111 1 1m16-5 1 1m19 11 1 1m6-15 1 1m15 23 1 1m20-17 1 1m14 1 1 1m-61 12 1 1" stroke="#b77c39" stroke-opacity=".4" stroke-width=".9" stroke-linecap="round"/>
+    <path d="M89 76Q95 80 96 92L94 107Q94 112 97 111Q101 111 101 101L103 85Q108 84 111 92L111 99Q112 103 114 101L117 87Q124 87 126 94L127 115Q128 121 131 117L132 97Q133 91 137 92Q142 91 145 101L147 107Q150 110 151 104L150 93Q157 87 160 94L164 115Q167 122 170 117L169 98Q168 88 173 85L181 100Q183 103 184 99L181 78Z" fill="url(#p3-drip)"/>
+    <path d="M97 91 96 103m34-6v12m38-10 1 11" stroke="#eac07b" stroke-opacity=".8" stroke-width=".8" stroke-linecap="round"/>
+    <path d="M80 123Q95 143 139 141T196 121" stroke="#ae702f" stroke-width="3" stroke-opacity=".35"/>
+  </g>
+  <path d="M89 66C91 59 99 56 105 54C111 48 123 49 129 47C137 44 146 47 153 48C162 46 169 51 175 55C184 57 189 65 186 71C191 76 183 83 177 85C173 92 162 91 155 94C147 98 139 95 133 96C125 97 118 93 112 92C101 91 100 86 95 83C87 80 85 73 89 66Z" fill="url(#p3-caramel)" stroke="#bd7a35" stroke-width=".8"/>
+  <path d="M93 66Q94 59 107 58Q115 51 126 52M144 50q18 0 27 9M101 83q11 9 28 9" stroke="#f4cd85" stroke-opacity=".72" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M95 67Q101 61 111 61M111 56l10-2M101 76l6 3" stroke="#ffe9b7" stroke-opacity=".75" stroke-width="2" stroke-linecap="round"/>
+  <path d="M121 69C123 61 145 59 156 66C162 70 158 80 150 83C139 87 122 82 120 76C118 74 119 71 121 69Z" fill="#e4b36b"/>
+  <path d="M124 68C132 62 149 63 156 69L154 80Q140 88 123 78Z" fill="url(#p3-hole)"/>
+  <path d="M123 78Q133 71 153 79Q147 85 137 83Z" fill="#85421f"/>
+  <path d="M124 69Q136 62 152 68" stroke="#673019" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M123 79Q138 88 151 81" stroke="#f4cd88" stroke-width="1.3" stroke-linecap="round"/>
+  <path d="M164 63q9 3 10 8m-17 15 10-3m-54-18 2-1" stroke="#edb86a" stroke-opacity=".65" stroke-width=".9" stroke-linecap="round"/>
+  <path d="M208 133c3-2 8-2 9 1 0 3-6 4-9 2-1-1-1-2 0-3ZM77 142c2-1 6 0 5 2-1 2-5 2-6 0Z" fill="#b77b36"/>
+  <path d="m210 133 3 1m-135 9h2" stroke="#ebc789" stroke-width=".7" stroke-linecap="round"/>
+  <g transform="translate(247 65) rotate(23)">
+    <path d="M0 25Q-14 24-13 10C-12-5 9-6 12 8C15 22 6 26 3 26L7 88Q8 95 3 96Q-2 95-1 88Z" fill="#6f533a" opacity=".16" transform="translate(3 3)"/>
+    <path d="M0 25Q-14 24-13 10C-12-5 9-6 12 8C15 22 6 26 3 26L7 88Q8 95 3 96Q-2 95-1 88Z" fill="url(#p3-metal)" stroke="#8c9786" stroke-width=".5"/>
+    <path d="M-10 10C-9-1 7-2 10 9C12 19 5 24 0 23C-7 22-12 19-10 10Z" fill="url(#p3-spoon)"/>
+    <path d="M-8 9q0-6 6-7M2 34l2 52" stroke="#fffaf4" stroke-width="1" stroke-linecap="round"/>
+  </g>
+  <path d="M37 76q13-13 17-26" stroke="#63794a" stroke-width="1.2"/>
+  <use href="#p3-mint-leaf" x="23" y="41" width="23" height="30" transform="rotate(-32 34 56)"/>
+  <use href="#p3-mint-leaf" x="42" y="35" width="22" height="29" transform="rotate(30 53 49)"/>
+  <use href="#p3-mint-leaf" x="42" y="59" width="18" height="23" transform="rotate(81 51 70)"/>
+</svg>

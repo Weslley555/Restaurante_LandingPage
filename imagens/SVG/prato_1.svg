@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="180" viewBox="0 0 280 180" fill="none" role="img" aria-labelledby="p1-title p1-desc" lang="pt-BR">
+  <title id="p1-title">Prato feito com carne acebolada</title>
+  <desc id="p1-desc">Prato de cerâmica creme com borda vinho, visto de cima, servido com arroz de grãos soltos, feijão ao caldo, bife acebolado e salada de alface, tomate e pepino. Talheres repousam sobre uma mesa clara com guardanapo de linho.</desc>
+  <defs>
+    <linearGradient id="p1-bg" x2="1" y2="1"><stop stop-color="#fffaf4"/><stop offset="1" stop-color="#e8cfaf"/></linearGradient>
+    <linearGradient id="p1-plate" x2=".6" y2="1"><stop stop-color="#fffdf8"/><stop offset=".65" stop-color="#f4e7d4"/><stop offset="1" stop-color="#cbb697"/></linearGradient>
+    <radialGradient id="p1-well" cx=".35" cy=".28" r=".8"><stop stop-color="#fffdf7"/><stop offset="1" stop-color="#e9d8bb"/></radialGradient>
+    <radialGradient id="p1-shadow"><stop stop-color="#6b492e" stop-opacity=".28"/><stop offset=".75" stop-color="#6b492e" stop-opacity=".12"/><stop offset="1" stop-color="#6b492e" stop-opacity="0"/></radialGradient>
+    <linearGradient id="p1-meat" x2=".7" y2="1"><stop stop-color="#ce8b51"/><stop offset=".4" stop-color="#9d542f"/><stop offset="1" stop-color="#592d1e"/></linearGradient>
+    <radialGradient id="p1-broth" cx=".3" cy=".2" r=".9"><stop stop-color="#b48251"/><stop offset="1" stop-color="#613624"/></radialGradient>
+    <linearGradient id="p1-bean" x2=".6" y2="1"><stop stop-color="#c89966"/><stop offset=".4" stop-color="#9b6240"/><stop offset="1" stop-color="#633a27"/></linearGradient>
+    <linearGradient id="p1-green" x2=".7" y2="1"><stop stop-color="#a5b063"/><stop offset=".5" stop-color="#788b47"/><stop offset="1" stop-color="#425d32"/></linearGradient>
+    <linearGradient id="p1-metal" x2="1" y2=".15"><stop stop-color="#8b8d7b"/><stop offset=".3" stop-color="#fffaf4"/><stop offset=".65" stop-color="#bbc1b2"/><stop offset="1" stop-color="#737c6c"/></linearGradient>
+    <pattern id="p1-grain" width="280" height="52" patternUnits="userSpaceOnUse"><path d="M0 11C64 1 106 24 178 13S253 9 280 15M0 17C72 9 116 31 194 19S255 17 280 21M0 48H280" stroke="#a77c50" stroke-opacity=".12" stroke-width=".7"/></pattern>
+    <pattern id="p1-linen" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 1H4M1 0V4" stroke="#e3b497" stroke-opacity=".14" stroke-width=".5"/></pattern>
+    <pattern id="p1-rice" width="18" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(-19)"><path d="M2 4Q5 0 7 3Q6 7 2 4M11 3Q14 0 15 4Q13 7 11 3M6 11Q9 7 11 10Q9 14 6 11M14 13Q16 9 18 12Q17 16 14 13" fill="#fffdf3" stroke="#d4c097" stroke-width=".45"/><path d="m1 13 2-1m7-6 2 1" stroke="#fffaf4" stroke-width="1.3" stroke-linecap="round"/></pattern>
+    <pattern id="p1-speckle" width="13" height="11" patternUnits="userSpaceOnUse"><path d="M3 3h.3m5 5h.4" stroke="#987d5b" stroke-opacity=".24" stroke-width=".7" stroke-linecap="round"/></pattern>
+    <symbol id="p1-leaf" viewBox="0 0 33 40"><path d="M15 39C7 36 10 31 4 30C-2 28 4 24 1 19C-1 14 6 14 5 9C4 3 11 7 13 2C17-3 20 5 25 3C31 1 28 9 32 12C36 17 29 20 31 24C33 30 25 29 24 34C24 39 19 35 15 39Z" fill="url(#p1-green)"/><path d="m15 37 3-30m-2 21L7 20m10-1-7-7m7 13 10-9m-12 16 8-4" stroke="#d0d59b" stroke-opacity=".6" stroke-width=".8"/></symbol>
+    <symbol id="p1-bean-shape" viewBox="0 0 14 10"><path d="M1 3C3-1 12-1 13 4C16 10 8 11 6 8C4 6 2 11 1 7C0 6 0 4 1 3Z" fill="url(#p1-bean)" stroke="#6d422b" stroke-width=".4"/><path d="M3 3Q6 1 9 3" stroke="#ebc494" stroke-width=".8" stroke-linecap="round"/><path d="M5 7q3-3 5 0" stroke="#6f432e" stroke-width=".6"/></symbol>
+    <symbol id="p1-tomato" viewBox="0 0 29 26"><path d="M2 9C6-2 23-1 27 10C32 21 18 29 9 24C0 23-1 15 2 9Z" fill="#d87951" stroke="#a74a34" stroke-width=".7"/><path d="M6 9q4-5 8-4l-2 7Zm13-3q7 4 5 9l-8-2ZM23 18q-8 7-16 0l7-3Z" fill="#af4432"/><path d="m9 8 2-1m9 3 1 2m-10 7 2 1m5-1 2-1" stroke="#f7d194" stroke-width="1.4" stroke-linecap="round"/></symbol>
+    <path id="p1-rice-mound" d="M83 61C87 53 94 49 102 51C108 44 119 46 124 51C135 49 145 59 143 66C150 73 142 83 144 88C142 98 130 103 120 100C109 106 96 99 91 97C78 95 77 86 80 79C75 72 77 65 83 61Z"/>
+    <path id="p1-steak" d="M145 108C159 98 174 94 188 102C202 107 212 121 207 132C205 144 190 149 179 146C165 150 155 141 147 137C137 131 134 116 145 108Z"/>
+    <clipPath id="p1-grill-clip"><use href="#p1-steak"/></clipPath>
+  </defs>
+  <path d="M0 0H280V180H0Z" fill="url(#p1-bg)"/>
+  <path d="M0 0H280V180H0Z" fill="url(#p1-grain)"/>
+  <path d="m1 37 42-15 52 158H30Z" fill="#6a0909"/>
+  <path d="m1 37 42-15 52 158H30Z" fill="url(#p1-linen)"/>
+  <path d="m7 39 44 141m-39-142 44 142" stroke="#d1a086" stroke-width=".8" stroke-opacity=".6"/>
+  <ellipse cx="148" cy="102" rx="102" ry="77" fill="url(#p1-shadow)"/>
+  <path d="M52 91C52 46 91 19 139 17C192 13 234 44 237 88C241 129 198 166 148 168C96 172 53 142 52 91Z" fill="#bda482"/>
+  <path d="M52 88C52 43 91 16 139 14C192 10 234 41 237 85C241 126 198 163 148 165C96 169 53 139 52 88Z" fill="url(#p1-plate)" stroke="#fffaf4" stroke-width="1.3"/>
+  <path d="M59 87C60 48 96 22 140 21C189 17 227 46 230 86C232 124 194 155 147 158C100 162 59 133 59 87Z" stroke="#6a0909" stroke-width="1.1" stroke-opacity=".75"/>
+  <path d="M65 87C65 51 100 28 140 27C185 24 222 50 223 87C225 124 189 151 147 153C103 156 65 131 65 87Z" fill="url(#p1-speckle)"/>
+  <path d="M72 87C72 57 103 34 141 34C180 31 214 54 216 87C218 121 186 145 147 147C108 150 72 126 72 87Z" fill="url(#p1-well)" stroke="#d9c7aa" stroke-width=".7"/>
+  <path d="M64 67Q79 29 130 24" stroke="#fffef9" stroke-width="2" stroke-linecap="round"/>
+  <path d="M82 108C91 101 104 100 115 105C127 101 139 111 136 122C137 133 125 145 115 146C100 151 85 142 81 134C74 126 75 114 82 108Z" fill="url(#p1-broth)"/>
+  <path d="M81 115q5-9 13-9m-8 30q13 11 26 9" stroke="#d7a168" stroke-width="1" stroke-linecap="round"/>
+  <use href="#p1-bean-shape" x="83" y="108" width="14" height="10" transform="rotate(-23 90 113)"/><use href="#p1-bean-shape" x="100" y="105" width="15" height="11"/><use href="#p1-bean-shape" x="118" y="112" width="14" height="10" transform="rotate(36 125 117)"/>
+  <use href="#p1-bean-shape" x="79" y="121" width="15" height="11" transform="rotate(29 86 126)"/><use href="#p1-bean-shape" x="98" y="120" width="15" height="11" transform="rotate(-36 105 125)"/><use href="#p1-bean-shape" x="116" y="126" width="15" height="11"/>
+  <use href="#p1-bean-shape" x="89" y="134" width="14" height="10"/><use href="#p1-bean-shape" x="105" y="136" width="14" height="10" transform="rotate(-20 112 141)"/>
+  <use href="#p1-rice-mound" fill="#c7b186" transform="translate(0 2)"/>
+  <use href="#p1-rice-mound" fill="#eee0bc"/>
+  <use href="#p1-rice-mound" fill="url(#p1-rice)"/>
+  <path d="m92 64 3-1m27-6 2 2m-12 19 3-1m-15 13 2 2m27-9 2-1" stroke="#7c864e" stroke-width="1.2" stroke-linecap="round"/>
+  <use href="#p1-leaf" x="144" y="37" width="33" height="42" transform="rotate(-32 160 58)"/><use href="#p1-leaf" x="171" y="40" width="33" height="44" transform="rotate(28 187 62)"/><use href="#p1-leaf" x="185" y="67" width="30" height="39" transform="rotate(55 200 86)"/><use href="#p1-leaf" x="147" y="65" width="36" height="41" transform="rotate(-63 165 85)"/>
+  <use href="#p1-tomato" x="168" y="52" width="27" height="25" transform="rotate(-13 181 64)"/><use href="#p1-tomato" x="179" y="79" width="26" height="23" transform="rotate(29 192 90)"/>
+  <path d="M153 72C156 64 167 63 171 70C175 78 165 85 158 82C153 81 150 76 153 72Z" fill="#e4dfb1" stroke="#72844a" stroke-width="2"/><path d="m159 70 2 5m6-3-5 4m-3 3 3-2" stroke="#a7b073" stroke-width="1"/>
+  <path d="M167 89C153 80 170 69 179 78M192 82q-7-8 3-11" stroke="#8e5660" stroke-width="1.8" stroke-linecap="round"/><path d="M167 88C156 80 170 72 178 78" stroke="#f1dcd1" stroke-width=".8" stroke-linecap="round"/>
+  <use href="#p1-steak" fill="#68412c" opacity=".25" transform="translate(1 3)"/>
+  <use href="#p1-steak" fill="url(#p1-meat)" stroke="#784127" stroke-width=".9"/>
+  <g clip-path="url(#p1-grill-clip)"><path d="m135 119 58-23m-52 34 65-25m-52 36 61-25m-46 33 50-21" stroke="#572f20" stroke-width="2.7" stroke-linecap="round" opacity=".8"/><path d="m135 117 58-23m-52 34 65-25m-52 36 61-25m-46 33 50-21" stroke="#d49c66" stroke-width=".8" opacity=".8"/><path d="m150 115 3 1m13-10 3 2m-9 18 2 2m22-15 3 2m-3 20 4 1m-13-1 3 2" stroke="#e2b17e" stroke-width="1" stroke-linecap="round"/></g>
+  <path d="M155 116C141 110 158 98 169 105C181 113 168 123 159 116M178 121C167 111 188 105 194 114C201 123 192 129 182 125M163 132q6-10 19-5" stroke="#edcf93" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M155 108q6-6 12-2m12 8q5-5 10-1" stroke="#fff1c2" stroke-width=".8" stroke-linecap="round"/>
+  <path d="m187 140 6-12m-4 7q-9 0-7-6 7-2 7 6m2-2q1-9 7-6 1 6-7 6" fill="#71854b" stroke="#52653a" stroke-width=".7"/>
+  <g transform="translate(29 50) rotate(-12)"><path d="M0 0v19q0 6 6 8L4 87q0 5 4 5t4-5l-2-60q6-2 6-8V0h-2v17h-2V0h-2v17H7V0H5v17H3V0Z" fill="url(#p1-metal)" stroke="#9a9d88" stroke-width=".35"/><path d="M7 36v48" stroke="#fffaf4" stroke-width=".7"/></g>
+  <g transform="translate(249 48) rotate(9)"><path d="M4 0Q-4 14-3 42h6L1 88q0 5 4 5t4-5V0Z" fill="url(#p1-metal)" stroke="#969b87" stroke-width=".35"/><path d="M5 49v36" stroke="#fffaf4" stroke-width=".8"/></g>
+  <path d="m219 165 3-1m-163-3 2 1m172-128 2-1" stroke="#fffaf4" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
