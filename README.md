@@ -1,5 +1,7 @@
 # Terreiro do Vovô — landing page demonstrativa
 
+[Visualize o projeto na Vercel](https://restaurantelanding-page.vercel.app/)
+
 Projeto de portfólio de uma landing page responsiva para apresentar almoço self-service, delivery de marmitas e serviços para eventos em Piranga-MG.
 
 A interface é uma demonstração: não recebe pedidos, pagamentos, reservas ou orçamentos e não possui integração operacional com WhatsApp.
@@ -121,17 +123,3 @@ Eventos disponíveis após consentimento:
 | `open_portfolio_modal` | `service_name`, `service_option` | Abertura do aviso de portfólio |
 
 Todos incluem `project_context: "portfolio_demo"` e não representam vendas ou leads reais. Não adicione dados pessoais aos parâmetros.
-
-## Checklist de manutenção
-
-- [ ] Confirmar preços e horários antes de publicar.
-- [ ] Confirmar endereço, cobertura e capacidades aproximadas.
-- [ ] Manter o aviso de escadas nas seções de almoço e eventos.
-- [ ] Não anunciar inclusões de eventos sem confirmação.
-- [ ] Atualizar política e termos ao adicionar integrações ou coleta de dados.
-- [ ] Validar os IDs e controles ARIA ao alterar abas, modal ou galeria.
-- [ ] Testar aceite, recusa, revogação e ausência de requisições analíticas sem consentimento.
-- [ ] Verificar console, navegação por teclado, zoom e ausência de rolagem horizontal.
-- [ ] Testar entrada das seções, troca de abas e abertura/fechamento repetido do modal.
-- [ ] Ativar movimento reduzido antes e durante a visita; confirmar que o conteúdo permanece visível.
-- [ ] Desativar JavaScript e conferir leitura do conteúdo e navegação por âncoras.
