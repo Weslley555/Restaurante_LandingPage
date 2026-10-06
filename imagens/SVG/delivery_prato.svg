@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="350" viewBox="0 0 500 350" fill="none" role="img" aria-labelledby="d-title d-desc" lang="pt-BR">
+  <title id="d-title">Marmita caseira, pronta para servir</title>
+  <desc id="d-desc">Marmita aberta de fibra natural, vista de cima em leve perspectiva, com arroz, feijão, tiras de carne acebolada e legumes em divisórias. Salada e farofa em potinhos, talheres de madeira e guardanapo vinho acompanham a embalagem sem marca.</desc>
+  <defs>
+    <linearGradient id="d-bg" x2="1" y2="1"><stop stop-color="#fffaf4"/><stop offset="1" stop-color="#e5ccb0"/></linearGradient>
+    <linearGradient id="d-fiber" x2=".7" y2="1"><stop stop-color="#fffaf4"/><stop offset=".6" stop-color="#ece0c8"/><stop offset="1" stop-color="#c3ac87"/></linearGradient>
+    <linearGradient id="d-wall" x2=".2" y2="1"><stop stop-color="#d4bc98"/><stop offset=".4" stop-color="#f6ead4"/><stop offset="1" stop-color="#ae9169"/></linearGradient>
+    <radialGradient id="d-shadow"><stop stop-color="#553d2a" stop-opacity=".28"/><stop offset=".72" stop-color="#553d2a" stop-opacity=".15"/><stop offset="1" stop-color="#553d2a" stop-opacity="0"/></radialGradient>
+    <linearGradient id="d-leaf" x2=".8" y2="1"><stop stop-color="#a4ae66"/><stop offset=".5" stop-color="#748347"/><stop offset="1" stop-color="#465c31"/></linearGradient>
+    <linearGradient id="d-bean" x2=".6" y2="1"><stop stop-color="#c18e5c"/><stop offset=".45" stop-color="#915435"/><stop offset="1" stop-color="#5b3022"/></linearGradient>
+    <radialGradient id="d-broth" cx=".3" cy=".3" r=".85"><stop stop-color="#ae7746"/><stop offset="1" stop-color="#5a3021"/></radialGradient>
+    <linearGradient id="d-meat" x2=".7" y2="1"><stop stop-color="#cb8b55"/><stop offset=".42" stop-color="#a35932"/><stop offset="1" stop-color="#60321f"/></linearGradient>
+    <linearGradient id="d-wood" x2="1" y2="0"><stop stop-color="#bd9563"/><stop offset=".4" stop-color="#efd6a4"/><stop offset="1" stop-color="#d0ad79"/></linearGradient>
+    <pattern id="d-grain" width="500" height="77" patternUnits="userSpaceOnUse"><path d="M0 20C125 6 186 37 323 20S449 12 500 22M0 27C130 14 201 46 339 28S441 20 500 31M0 69H500" stroke="#ad845c" stroke-opacity=".13"/></pattern>
+    <pattern id="d-fibers" width="23" height="19" patternUnits="userSpaceOnUse"><path d="m3 4 2 1m10 8 3-1m1-9 1 2M4 16h2" stroke="#a58c64" stroke-opacity=".2" stroke-width=".7"/></pattern>
+    <pattern id="d-linen" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M0 1H5M1 0V5" stroke="#efc8b0" stroke-opacity=".12" stroke-width=".5"/></pattern>
+    <pattern id="d-rice" width="24" height="22" patternUnits="userSpaceOnUse" patternTransform="rotate(9)"><path d="M2 5Q5 1 8 3Q7 7 2 5M13 3Q17 0 18 4Q16 8 13 3M8 13Q12 8 15 11Q14 16 8 13M19 17Q22 12 23 16Q23 21 19 17M1 19Q4 15 7 18Q5 22 1 19" fill="#fffdf2" stroke="#d4c399" stroke-width=".55"/><path d="m20 8 3-1m-11 12 3 1M1 11l3 1" stroke="#fffaf4" stroke-width="1.5" stroke-linecap="round"/></pattern>
+    <pattern id="d-farofa" width="12" height="11" patternUnits="userSpaceOnUse"><path d="m2 2 2 1-1 2-2-1m7 2 3 1-1 3-2-1" fill="#ba8b43"/><path d="m5 7 2 1m2-7 2 1M1 10h2" stroke="#ffedb9" stroke-width="1.7" stroke-linecap="round"/></pattern>
+    <symbol id="d-bean-shape" viewBox="0 0 22 15"><path d="M2 4C6-2 20 0 21 7C23 14 14 18 10 12C7 10 5 15 2 11C0 9-1 7 2 4Z" fill="url(#d-bean)" stroke="#663922" stroke-width=".6"/><path d="M4 5Q9 1 15 4" stroke="#ddb384" stroke-width="1" stroke-linecap="round"/><path d="M8 10q5-4 8 0" stroke="#613623" stroke-width=".8"/></symbol>
+    <symbol id="d-lettuce" viewBox="0 0 44 48"><path d="M20 46C12 45 15 39 7 38C-1 36 7 31 2 25C-2 20 5 17 6 13C3 5 12 10 15 3C20-3 23 7 29 3C37 0 33 10 39 12C46 13 40 21 42 26C46 33 37 30 35 37C34 44 26 40 20 46Z" fill="url(#d-leaf)"/><path d="M20 44 23 9m-2 23L9 22m13 0-9-7m9 15 13-12m-15 20 12-5" stroke="#c6cd91" stroke-width=".9" stroke-opacity=".75"/></symbol>
+    <symbol id="d-tomato" viewBox="0 0 33 28"><path d="M2 11C5 0 23-3 29 6C38 17 27 29 15 27C3 28-2 19 2 11Z" fill="#cb6746" stroke="#a64330"/><path d="M7 10Q12 4 16 5L14 13ZM21 6q8 3 6 9l-9-1ZM25 19q-8 8-17 0l8-3Z" fill="#aa4030"/><path d="m10 9 2-1m11 3 1 2m-13 8 3 1m6-2 2-1" stroke="#f8cc91" stroke-width="1.6" stroke-linecap="round"/></symbol>
+    <symbol id="d-carrot" viewBox="0 0 28 18"><path d="m3 3 17-2 6 9-16 6L1 11Z" fill="#ca713a"/><path d="m3 3 17-2 3 6-14 6-8-2Z" fill="#e8a05a"/><path d="m7 5 12-2M9 8l6-2" stroke="#f7c484" stroke-width="1.2" stroke-linecap="round"/></symbol>
+    <symbol id="d-broccoli" viewBox="0 0 33 32"><path d="m14 17-5 12 6 2 7-12" fill="#a1ae67"/><path d="M5 22C-2 19 0 12 5 11C1 5 10 0 14 4C18-3 26 0 26 6C35 4 35 16 29 17C31 25 22 28 18 22C13 27 10 20 5 22Z" fill="url(#d-leaf)"/><path d="m7 11 2-3m6 1 2-3m7 5 2-2m-15 8 2-2m9 3 2-2" stroke="#b3bf80" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <path id="d-rice-mound" d="M114 125C122 112 138 116 147 112C163 108 172 117 185 113C203 111 215 125 211 136C218 151 211 167 215 181C212 196 195 197 184 192C169 200 155 192 142 196C128 193 117 193 115 180C107 169 113 156 109 146C106 137 109 130 114 125Z"/>
+  </defs>
+  <path d="M0 0H500V350H0Z" fill="url(#d-bg)"/>
+  <path d="M0 0H500V350H0Z" fill="url(#d-grain)"/>
+  <path d="m17 92 170-34 126 256-197 40Z" fill="#6a0909"/>
+  <path d="m17 92 170-34 126 256-197 40Z" fill="url(#d-linen)"/>
+  <path d="m31 95 97 241m-89-242 97 241" stroke="#d6ab8d" stroke-width="1.3" stroke-opacity=".65"/>
+  <path d="M72 154Q91 238 166 324" stroke="#a45041" stroke-width="4" stroke-opacity=".35"/>
+  <ellipse cx="245" cy="226" rx="182" ry="106" fill="url(#d-shadow)"/>
+  <g transform="rotate(-6 247 178)">
+    <path d="m96 83 14-53Q114 16 131 18L356 22Q375 22 378 38L389 91Z" fill="#c1a782"/>
+    <path d="m98 77 15-51Q116 14 134 16L356 20Q371 20 375 34L386 83Z" fill="url(#d-fiber)" stroke="#fffaf4" stroke-width="1.5"/>
+    <path d="m117 68 12-35 224 3 12 38Z" fill="#e3d2b5" stroke="#c7af8b" stroke-width="1.4"/>
+    <path d="m125 64 10-24 211 3 9 25" stroke="#fff8e8" stroke-width="2"/>
+    <path d="m98 77 15-51Q116 14 134 16L356 20Q371 20 375 34L386 83Z" fill="url(#d-fibers)"/>
+    <path d="m190 20 2 8 84 2 3-8M139 84l2 11m44-10 1 10m48-10v11m50-9-1 11m48-9-2 10" stroke="#bca07a" stroke-width="2"/>
+    <path d="M94 100Q91 85 111 84L366 89Q387 89 390 107L387 285Q386 301 365 302L114 299Q97 298 95 281Z" fill="url(#d-wall)" stroke="#b9a17e"/>
+    <path d="m107 290 17 2m18-1 16 2m19-1 16 2m20-1 15 1m20-1 15 2m20-2 15 1m20-1 15 1m18-2 15 1" stroke="#967c58" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M94 100Q94 87 112 87L367 92Q385 93 386 109L382 275Q382 290 364 290L113 286Q96 286 96 272Z" fill="url(#d-fiber)" stroke="#fffaf4" stroke-width="2"/>
+    <path d="M110 111Q110 104 122 104L211 106Q224 106 224 118L224 193Q224 205 212 205L120 204Q108 203 109 190Z" fill="#cdb995" stroke="#b29a76"/>
+    <path d="M115 119Q115 111 125 111L210 114Q217 114 218 122V189Q217 198 207 198L125 197Q115 197 115 187Z" fill="#f0e2c6"/>
+    <path d="M238 118Q238 108 250 109L359 111Q371 111 371 124L369 194Q369 207 354 207L247 206Q237 206 238 195Z" fill="#c6b08b" stroke="#b29a76"/>
+    <path d="M244 125Q245 117 257 116L355 119Q364 119 364 130L362 190Q362 199 351 200L255 199Q245 199 245 191Z" fill="#f0e2c6"/>
+    <path d="M110 225Q110 214 122 214L355 217Q369 217 368 230L366 266Q365 279 350 278L123 274Q111 274 111 263Z" fill="#c5ad88" stroke="#b39b76"/>
+    <path d="M116 230Q116 221 127 221L350 224Q361 224 361 233L359 261Q359 272 347 272L129 269Q117 269 117 261Z" fill="#e9d8b9"/>
+    <use href="#d-rice-mound" fill="#d9c69b" transform="translate(1 3)"/>
+    <use href="#d-rice-mound" fill="#f3e8ca"/>
+    <use href="#d-rice-mound" fill="url(#d-rice)"/>
+    <path d="m126 132 3 2m52-10 2 3m-17 37 4-1m-33 19 2-2m57 3 3 1" stroke="#7a864e" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M246 132Q244 118 265 120L348 123Q363 123 359 141L357 187Q357 196 344 196L261 195Q246 195 247 184Z" fill="url(#d-broth)"/>
+    <g>
+      <use href="#d-bean-shape" x="251" y="126" width="23" height="16" transform="rotate(-16 263 134)"/><use href="#d-bean-shape" x="279" y="122" width="22" height="16" transform="rotate(25 290 130)"/><use href="#d-bean-shape" x="304" y="131" width="23" height="16"/><use href="#d-bean-shape" x="332" y="126" width="23" height="16" transform="rotate(33 344 134)"/>
+      <use href="#d-bean-shape" x="254" y="150" width="25" height="17" transform="rotate(38 266 158)"/><use href="#d-bean-shape" x="281" y="146" width="24" height="17" transform="rotate(-20 293 154)"/><use href="#d-bean-shape" x="312" y="157" width="23" height="16"/><use href="#d-bean-shape" x="337" y="150" width="21" height="15" transform="rotate(62 347 157)"/>
+      <use href="#d-bean-shape" x="251" y="174" width="23" height="16"/><use href="#d-bean-shape" x="279" y="169" width="24" height="17" transform="rotate(-32 291 177)"/><use href="#d-bean-shape" x="307" y="178" width="23" height="16"/><use href="#d-bean-shape" x="335" y="175" width="22" height="15" transform="rotate(-21 346 183)"/>
+    </g>
+    <path d="M298 157Q294 138 311 139Q315 150 298 157Z" fill="#77814b"/><path d="m299 154 9-12" stroke="#d0c88d" stroke-width=".8"/>
+    <path d="M126 236Q156 217 199 223Q234 222 268 234L263 258Q230 277 190 267L135 265Q122 258 126 236Z" fill="#865131" opacity=".3"/>
+    <g fill="url(#d-meat)" stroke="#754126" stroke-width="1">
+      <path d="M130 239Q150 225 179 226L201 230Q208 235 201 242L145 251Q129 254 127 248Z"/>
+      <path d="M149 252Q176 238 219 235L242 239Q249 244 239 250L165 267Q148 267 145 260Z"/>
+      <path d="M207 258Q231 244 254 244Q269 243 268 251Q265 260 244 265L216 272Q205 271 204 265Z"/>
+    </g>
+    <path d="m142 236 42-6m-25 25 56-13m7 19 30-11" stroke="#e0a36b" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="m141 245 5-7m16 3 5-10m23 4 3-5m-21 31 4-9m17 4 3-7m18 3 3-8m18 17 4-8" stroke="#623420" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M155 241C138 230 166 218 181 228C190 238 179 248 166 243M199 249C188 233 221 222 232 237M226 262Q220 244 246 241" stroke="#f1d494" stroke-width="3" stroke-linecap="round"/>
+    <path d="m176 238 3-3m34 19 4 1m37-2 2-4" stroke="#677b43" stroke-width="2" stroke-linecap="round"/>
+    <use href="#d-broccoli" x="272" y="226" width="34" height="33" transform="rotate(-22 289 242)"/><use href="#d-broccoli" x="323" y="222" width="35" height="34" transform="rotate(25 340 239)"/>
+    <use href="#d-carrot" x="301" y="225" width="30" height="21" transform="rotate(-24 316 235)"/><use href="#d-carrot" x="286" y="252" width="31" height="20"/><use href="#d-carrot" x="326" y="252" width="28" height="18" transform="rotate(18 340 261)"/>
+    <path d="M304 250q10-13 21-8l-2 10q-11 7-19-2Z" fill="#d8d89c" stroke="#6f7f40" stroke-width="2"/><path d="m312 246 2 3m5-5 1 4" stroke="#a5af66" stroke-width="1.2"/>
+    <path d="M230 115v88m-114 7 243 4" stroke="#fffaf4" stroke-width="3" stroke-linecap="round"/>
+    <path d="M100 101 102 268M378 112l-3 157" stroke="#fffaf4" stroke-opacity=".75" stroke-width="2"/>
+    <path d="m213 285 3 9 50 1 4-9" fill="url(#d-fiber)" stroke="#bca480"/>
+    <path d="m222 289 36 1" stroke="#fffaf4" stroke-width="1.3"/>
+  </g>
+  <ellipse cx="55" cy="269" rx="49" ry="40" fill="url(#d-shadow)"/>
+  <path d="M13 250 20 282Q49 304 82 280L91 250Z" fill="url(#d-wall)"/>
+  <ellipse cx="52" cy="249" rx="41" ry="34" fill="url(#d-fiber)" stroke="#fffaf4" stroke-width="1.5"/>
+  <ellipse cx="52" cy="249" rx="34" ry="27" fill="#cbb692"/>
+  <use href="#d-lettuce" x="20" y="219" width="36" height="42" transform="rotate(-23 38 240)"/><use href="#d-lettuce" x="45" y="222" width="39" height="44" transform="rotate(34 64 244)"/><use href="#d-lettuce" x="27" y="242" width="38" height="36" transform="rotate(-63 46 260)"/>
+  <use href="#d-tomato" x="52" y="244" width="30" height="26" transform="rotate(24 67 257)"/>
+  <path d="M35 249Q43 231 59 239M40 259q9-12 20-5" stroke="#ead6cc" stroke-width="1.6" stroke-linecap="round"/>
+  <ellipse cx="439" cy="106" rx="46" ry="38" fill="url(#d-shadow)"/>
+  <path d="m402 88 5 30Q434 138 465 115L473 88Z" fill="url(#d-wall)"/>
+  <ellipse cx="437" cy="88" rx="36" ry="29" fill="url(#d-fiber)" stroke="#fffaf4" stroke-width="1.5"/>
+  <ellipse cx="437" cy="88" rx="29" ry="22" fill="#ddbd79"/>
+  <ellipse cx="437" cy="88" rx="29" ry="22" fill="url(#d-farofa)"/>
+  <path d="m422 86 4 2m18-14 2 3m-6 19 4-2m12-5 2 2" stroke="#798249" stroke-width="1.4" stroke-linecap="round"/>
+  <g transform="translate(424 167) rotate(12)">
+    <path d="m-8 57 57 2-4 106-54-4Z" fill="#684635" opacity=".14" transform="translate(3 3)"/>
+    <path d="m-8 57 57 2-4 106-54-4Z" fill="#ead5b3" stroke="#cbb18c"/>
+    <path d="M0 0v24q0 10 8 12L5 116q1 6 6 6t5-6l-2-80q8-3 8-12V0h-4v21h-3V0h-4v21H8V0H4v21H2V0Z" fill="url(#d-wood)" stroke="#bd9a6c" stroke-width=".6"/>
+    <path d="M42 0Q26 13 29 50h9l-4 66q1 7 6 7t6-7V0Z" fill="url(#d-wood)" stroke="#bd9a6c" stroke-width=".6"/>
+    <path d="m10 44-1 62m33-49-2 52" stroke="#b59362" stroke-opacity=".6" stroke-width=".8"/>
+    <path d="m-9 91 57 3-3 71-54-4Z" fill="#f5e7d1"/>
+    <path d="m-9 91 57 3-3 71-54-4Z" fill="url(#d-fibers)"/>
+    <path d="m-7 99 51 3m-49 52 45 4" stroke="#cfb99a" stroke-width=".8"/>
+  </g>
+  <path d="M355 329q16-10 30-8m-20 2q-9-11-2-15 10 0 8 14m4-1q3-14 12-11 3 8-12 11" stroke="#6d7b46" stroke-width="1.6" fill="#839056" stroke-linecap="round"/>
+  <path d="m91 312 3 1m299 9 3-2m-311-129 3 1" stroke="#fffaf4" stroke-width="2" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,32 @@
+<svg width="111" height="120" viewBox="0 0 111 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="111" height="120" rx="12" fill="white"/>
+  <!-- Delivery bag -->
+  <rect x="40" y="18" width="30" height="26" rx="4" fill="#6a0909"/>
+  <rect x="44" y="22" width="22" height="18" rx="2" fill="#8B1A1A"/>
+  <path d="M48 22 V16 Q55 12 62 16 V22" stroke="#6a0909" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Steam from bag -->
+  <path d="M50 16 Q48 12 50 8" stroke="#DDD" stroke-width="1.2" fill="none" stroke-linecap="round" opacity="0.5">
+  </path>
+  <path d="M60 16 Q58 12 60 8" stroke="#DDD" stroke-width="1.2" fill="none" stroke-linecap="round" opacity="0.4">
+  </path>
+  <!-- Heart on bag -->
+  <path d="M53 28 Q53 26 55 27 Q57 26 57 28 Q57 30 55 32 Q53 30 53 28Z" fill="#FFF" opacity="0.8"/>
+  <!-- Scooter body -->
+  <path d="M30 55 Q30 48 38 48 L70 48 Q78 48 78 55 L78 58 L30 58 Z" fill="#420505"/>
+  <rect x="34" y="45" width="8" height="6" rx="2" fill="#6a0909"/>
+  <!-- Wheels -->
+  <circle cx="38" cy="62" r="7" fill="#333"/>
+  <circle cx="38" cy="62" r="4" fill="#666"/>
+  <circle cx="38" cy="62" r="1.5" fill="#333"/>
+  <circle cx="72" cy="62" r="7" fill="#333"/>
+  <circle cx="72" cy="62" r="4" fill="#666"/>
+  <circle cx="72" cy="62" r="1.5" fill="#333"/>
+  <!-- Handlebar -->
+  <path d="M72 48 L80 38 L86 38" stroke="#333" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <circle cx="86" cy="38" r="2" fill="#333"/>
+  <!-- Ground line -->
+  <line x1="24" y1="69" x2="88" y2="69" stroke="#EEE" stroke-width="1"/>
+  <!-- Text -->
+  <text x="55" y="86" text-anchor="middle" font-family="'Manrope', sans-serif" font-weight="700" font-size="11" fill="#333">Delivery</text>
+  <text x="55" y="100" text-anchor="middle" font-family="'Manrope', sans-serif" font-weight="400" font-size="9" fill="#888">Peça já</text>
+</svg>
