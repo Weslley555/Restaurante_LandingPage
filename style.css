@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "Manrope";
+    src: url("fonts/Manrope/Manrope-VariableFont_wght.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 200 800;
+    font-display: swap;
+}
+
 :root {
     --vinho: #6a0909;
     --vinho-escuro: #420505;
@@ -97,8 +105,9 @@ h3 { font-size: 1.12rem; }
     gap: 28px;
 }
 .cabecalho-site.com-rolagem { background: rgba(66, 5, 5, .97); box-shadow: 0 6px 24px rgba(25, 0, 0, .18); }
-.marca { display: flex; min-width: 158px; min-height: 95px; align-items: center; }
+.marca { display: flex; min-width: 158px; min-height: 95px; align-items: center; color: #fff; text-decoration: none; }
 .marca-logo { width: 158px; height: 95px; object-fit: contain; }
+.marca-nome { display: none; font-size: 1.125rem; font-weight: 700; line-height: 1.2; white-space: nowrap; }
 .navegacao-principal { display: flex; align-items: center; justify-content: flex-end; gap: 8px; }
 .navegacao-principal a {
     position: relative;
@@ -370,7 +379,8 @@ h3 { font-size: 1.12rem; }
     .container, .cabecalho-conteudo { width: min(100% - 28px, var(--largura)); }
     .cabecalho-conteudo { min-height: var(--cabecalho); flex-direction: column; justify-content: center; gap: 3px; }
     .marca { min-width: 90px; min-height: 44px; }
-    .marca-logo { width: 38px; height: 22px; }
+    .marca-logo { display: none; }
+    .marca-nome { display: block; }
     .navegacao-principal { width: 100%; padding-bottom: 6px; justify-content: space-between; gap: 2px; overflow-x: auto; scrollbar-width: thin; scrollbar-color: rgba(255,255,255,.45) transparent; }
     .navegacao-principal a { flex: 0 0 auto; padding-inline: 9px; font-size: .86rem; }
     .secao { padding: 58px 0; }
